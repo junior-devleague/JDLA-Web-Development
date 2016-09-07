@@ -1,13 +1,13 @@
-name: Morea CORE (Change me)
+name: JDLA Web Development
 markdown: kramdown
 kramdown:
   hard_wrap: false
   input: GFM
   syntax_highlighter: rouge
 mathjax: true
-baseurl: /core
+baseurl: /JDLA-Web-Development
 exclude: [morea]
-morea_theme: spacelab
+morea_theme: lumen
 morea_navbar_items:
   #- Prerequisites
   - Modules
