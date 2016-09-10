@@ -1,8 +1,8 @@
 ---
-title: "Learn to Bar"
+title: "Intro to Command Line"
 published: true
-morea_id: bar
-morea_summary: "How to bar."
+morea_id: into-to-command-line
+morea_summary: "Learn the basics of Bash"
 morea_prerequisites:
   - prerequisite-foo
 morea_outcomes:
@@ -19,4 +19,4 @@ morea_type: module
 morea_sort_order: 2
 ---
 
-This is the second module in this sample template.
+This is an introduction to the command line. 

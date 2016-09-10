@@ -1,5 +1,5 @@
 ---
-title: "Assessment of the Baz"
+title: "Assessment of the Bar"
 published: true
 morea_id: assessment3
 morea_type: assessment
