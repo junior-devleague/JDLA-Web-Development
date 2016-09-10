@@ -1,10 +1,10 @@
 ---
-title: "Learn to Foo"
+title: "1. Intro to Web Development"
 published: true
-morea_id: foo
+morea_id: intro-to-web-development
 morea_outcomes:
- - outcome1
- - outcome2
+ - Know how the web works
+ - Understand the relationship between HTML/CSS/JavaScript
 morea_readings:
  - reading1
 morea_experiences:
