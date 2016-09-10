@@ -1,10 +1,10 @@
 ---
-title: "1. Intro to Web Development"
+title: "Intro to Web Development"
 published: true
 morea_id: intro-to-web-development
 morea_outcomes:
- - outcome-1.md
- - outcome-2.md
+ - outcome1
+ - outcome2
 morea_readings:
  - reading1
 morea_experiences:
