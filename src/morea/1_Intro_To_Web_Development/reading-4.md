@@ -1,12 +1,13 @@
 ---
-title: "How to use this site"
+title: "Sublime Text tutorial"
 published: true
-morea_id: reading1
-morea_summary: "A guide to using our modules"
+morea_id: reading4
+morea_summary: "How to set up and use the text editor Sublime Text"
 morea_type: reading
-morea_sort_order: 1
+morea_sort_order: 4
 morea_labels:
- - morea
+ - Sublime Text
+ - tutorial
 ---
 
 # MathJax samples

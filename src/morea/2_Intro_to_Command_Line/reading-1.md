@@ -1,10 +1,12 @@
 ---
-title: "To Baz or not to Baz?"
+title: "What is a shell?"
 published: true
-morea_id: reading3
-morea_url: http://google.com
-morea_summary: "The third reading (google.com)"
+morea_id: reading5
+morea_summary: "An explanation of shells, the command line, and Bash"
 morea_type: reading
-morea_sort_order: 3
+morea_sort_order: 5
+morea_labels:
+ - Bash
+ - command line
 ---
 

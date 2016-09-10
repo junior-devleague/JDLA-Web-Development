@@ -1,10 +1,13 @@
 ---
-title: "Bars through the ages"
+title: "Relationship between HTML, CSS, and JS"
 published: true
 morea_id: reading2
-morea_url: http://cnn.com
-morea_summary: "The second reading (cnn.com)"
+morea_summary: "How HTML, CSS, and JavaScript are related and used together"
 morea_type: reading
 morea_sort_order: 2
+morea_labels:
+ - HTML
+ - CSS
+ - JavaScript
 ---
 

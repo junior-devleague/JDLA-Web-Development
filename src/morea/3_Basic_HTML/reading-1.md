@@ -1,10 +1,11 @@
 ---
-title: "To Baz or not to Baz?"
+title: "What is HTML?"
 published: true
-morea_id: reading5
-morea_url: http://google.com
-morea_summary: "The fifth reading (google.com)"
+morea_id: reading8
+morea_summary: "An explanation of the markup language HTML"
 morea_type: reading
-morea_sort_order: 5
+morea_sort_order: 8
+morea_labels:
+ - HTML
 ---
 

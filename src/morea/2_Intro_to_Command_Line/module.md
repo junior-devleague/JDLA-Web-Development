@@ -9,8 +9,9 @@ morea_outcomes:
   - outcome2
   - outcome3
 morea_readings:
-  - reading3
-  - reading4
+  - reading5
+  - reading6
+  - reading7
 morea_experiences:
   - experience2
 morea_assessments:

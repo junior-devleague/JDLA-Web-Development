@@ -1,10 +1,12 @@
 ---
-title: "Reading 6"
+title: "Basics of HTML syntax and structure"
 published: true
-morea_id: reading6
-morea_url: http://github.com
-morea_summary: "The sixth reading (github.com)"
+morea_id: reading9
+morea_summary: "Understanding how to write HTML"
 morea_type: reading
-morea_sort_order: 6
+morea_sort_order: 9
+morea_labels:
+ - HTML
+ - syntax
 ---
 

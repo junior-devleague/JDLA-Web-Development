@@ -1,10 +1,12 @@
 ---
-title: "Reading 4"
+title: "Paths"
 published: true
-morea_id: reading4
-morea_url: http://github.com
-morea_summary: "The fourth reading (github.com)"
+morea_id: reading6
+morea_summary: "An explanation of the UNIX file system and paths"
 morea_type: reading
-morea_sort_order: 4
+morea_sort_order: 6
+morea_labels:
+ - UNIX
+ - file paths
 ---
 

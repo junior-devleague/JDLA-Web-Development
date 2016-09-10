@@ -1,12 +1,13 @@
 ---
-title: "How to use this site"
+title: "What is a website?"
 published: true
-morea_id: reading1
-morea_summary: "A guide to using our modules"
+morea_id: reading3
+morea_summary: "Explanation of websites and how they work"
 morea_type: reading
-morea_sort_order: 1
+morea_sort_order: 3
 morea_labels:
- - morea
+ - websites
+ - servers
 ---
 
 # MathJax samples

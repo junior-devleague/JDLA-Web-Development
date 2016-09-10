@@ -1,14 +1,20 @@
 ---
 title: "Basic CSS"
 published: true
-morea_coming_soon: true
 morea_id: basic-css
+morea_summary: "Learn the basics of CSS"
+morea_prerequisites:
 morea_type: module
 morea_outcomes:
 morea_readings:
+ - reading14
+ - reading15
+ - reading16
+ - reading17
+ - reading18
 morea_experiences:
 morea_assessments:
 morea_sort_order: 4
 ---
 
-This is an example module without any content.
+This is an introduction to the basics of CSS.
