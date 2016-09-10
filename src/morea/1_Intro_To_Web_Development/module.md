@@ -3,8 +3,8 @@ title: "1. Intro to Web Development"
 published: true
 morea_id: intro-to-web-development
 morea_outcomes:
- - Know how the web works
- - Understand the relationship between HTML/CSS/JavaScript
+ - outcome-1.md
+ - outcome-2.md
 morea_readings:
  - reading1
 morea_experiences:
