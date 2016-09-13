@@ -10,7 +10,7 @@ morea_labels:
  - command line
 ---
 
-#What is a shell?
+# What is a shell?
 
 A *shell* is the program that passes keyboard commands to the *operating system* (such as Windows, OS X, GNU/Linux, BSD) to carry out.
 

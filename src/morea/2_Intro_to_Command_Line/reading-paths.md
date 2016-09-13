@@ -10,11 +10,11 @@ morea_labels:
  - file paths
 ---
 
-#Paths
+# Paths
 
 UNIX operating systems follow a hierarchical directory structure. Before I launch into an explanation of how the UNIX file system works, remember that in UNIX, **everything is a file**. Everything. Even outputs, commands, and devices are files. 
 
-##File Systems
+## File Systems
 
 File systems are how your files are arranged in your computer.
 
@@ -22,7 +22,7 @@ File systems are how your files are arranged in your computer.
 
 The UNIX file system looks like a tree, where everything starts in the root directory, which is just written as a forward slash: `/`. Basically, directories (also known as folders in other OSes) hold files and subdirectories, which hold even more files and subdirectories, and so forth. This tree of directories (and files) is easily navigable as long as you know the path of what you’re looking for.
 
-##Paths
+## Paths
 
 A *path* in the file system traces out the location of a file/directory from a given directory.
 
@@ -32,11 +32,11 @@ A special pathname is `~` (tilde). `~` stands for `/home/user/`. Note that `user
 
 When writing out paths for anything (such as arguments), you can write them out as *absolute* or *relative* paths.
 
-####Absolute Paths
+#### Absolute Paths
 
 Absolute paths point to the file/directory regardless of the current working directory (the directory you are in). It always includes the root (or `~`). The paths in the examples above are written as absolute paths.
 
-####Relative Paths
+#### Relative Paths
 
 Relative paths point to the file/directory starting from the current working directory. You write them without the root `/`, and just start off as if it’s continuing from where you currently are in your terminal. For example, if I am in `~/Documents` and I wanted to access the “helloworld.py” file, I could just write out `DevLeague/helloworld.py`.
 

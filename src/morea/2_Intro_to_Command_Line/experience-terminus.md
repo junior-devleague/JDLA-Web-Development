@@ -8,7 +8,7 @@ morea_sort_order: 2
 morea_labels:
 ---
 
-#Terminus
+# Terminus
 
 In this exercise, you will play a Role-Playing Game developed by MIT, *Terminus*, to have a fun introduction to using Bash for file navigation and manipulation.
 

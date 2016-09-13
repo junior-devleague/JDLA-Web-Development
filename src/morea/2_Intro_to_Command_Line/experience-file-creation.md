@@ -8,7 +8,7 @@ morea_sort_order: 3
 morea_labels:
 ---
 
-#File creation
+# File creation
 
 All of the following must be done exclusively in your terminal with Bash. **Do not use a file manager.**
 

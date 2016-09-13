@@ -9,13 +9,13 @@ morea_labels:
  - Bash
 ---
 
-#Basic Bash
+# Basic Bash
 
 Before this reading, [follow this link](https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/experience-terminus.html) and complete the experiential learning exercise “Terminus”.
 
 In Terminus, you performed spells, interacted with items, and traveled to different locations. These are all translatable to Bash, with the spells as commands, items as files, and locations as directories.
 
-##Basic Bash commands
+## Basic Bash commands
 
 - `cd [directory]` - change directory into *[directory]*.
 - `ls [directory]` - list out the contents of the *[directory]*. *If no argument is given (you just type out `ls`), it defaults to the current working directory*.
@@ -36,7 +36,7 @@ When a command takes in a file/directory name as an argument, you can write out 
 
 **Remember that case sensitivity matters!** `CD` is not the same as `cd`. The same goes for file/directory names. "*documents*" is not the same as "*Documents*".
 
-##Bash syntax
+## Bash syntax
 
 Syntax is the structure any language must follow. Even Bash has a general syntax its commands follow (although some commands have their own):
 
@@ -50,17 +50,17 @@ The `argument` is whatever you’re passing into the command. For example, `cd D
 
 **Use spaces to separate commands, options, and arguments**. Do **NOT** use spaces otherwise, such as for file or directory names, as they will be read as separate arguments. For example, `touch My file` will not create a single file called “My file”, it will touch two separate files named “My” and “file”.
 
-##The manual
+## The manual
 
 If you don’t know how to use a command, read the manual for that command by typing in **`man command`**, where **command** is the name of the command you would like to read about. It tells you the syntax for that command with its possible options (and what they do) and what to pass in for arguments. If you try using a command and something doesn’t work, or you have a question, read the manual.
 
-##Autocompletion
+## Autocompletion
 
 When typing in arguments, you can use autocompletion with the Tab key. After typing in a unique amount of characters, if you press Tab, it automatically fills out the rest of the name for you! For example, if you’re in `~` and type in `cd Doc` and press Tab, the shell will automatically fill out the rest for you as `cd Documents`.
 
 ---
 
-###*A quick crash course on file system navigation*
+### *A quick crash course on file system navigation*
 
 - `cd [directory]` will bring you to a certain directory
 - `ls` will list the contents of your present directory, so you can decide which folder to `cd` into next. **If you don’t know where to go, use `ls`**.

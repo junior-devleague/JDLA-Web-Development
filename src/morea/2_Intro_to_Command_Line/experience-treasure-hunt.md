@@ -8,15 +8,18 @@ morea_sort_order: 4
 morea_labels:
 ---
 
-#Treasure Hunt
+# Treasure Hunt
 
 For our final exercise, you will use the commands you’ve learned, as well as critical thinking, logic, and mathematical ability (which are all crucial in programming) to traverse a tree of directories in a treasure hunt.
 
 Download the necessary files by typing the following into your terminal:
+
 `cd ~/Downloads`
+
 `git clone https://github.com/junior-devleague/TreasureHunt.git`
 
-###How to play
+### How to play
+
 Begin by `cd`’ing into the “*TreasureHunt*” directory and reading “*rules.txt*”.
 
 Basically, each directory will have a riddle or question you must solve. The sub-directories are your possible answers, so when you solve a problem, `cd` into the answer (which is the name of the directory). Immediately `ls` and read the riddle/question every time you enter a new directory.
