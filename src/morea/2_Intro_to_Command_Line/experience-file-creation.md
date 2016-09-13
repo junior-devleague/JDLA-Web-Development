@@ -6,6 +6,8 @@ morea_type: experience
 morea_summary: "Use Bash to create a tree of files and directories and use various commands on them."
 morea_sort_order: 3
 morea_labels:
+ - Bash
+ - creating files
 ---
 
 # File creation

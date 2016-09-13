@@ -6,6 +6,8 @@ morea_type: experience
 morea_summary: "Navigate through the file system to find hidden treasure!"
 morea_sort_order: 4
 morea_labels:
+ - Bash
+ - file navigation
 ---
 
 # Treasure Hunt

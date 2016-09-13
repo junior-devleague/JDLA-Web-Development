@@ -42,7 +42,7 @@ Relative paths point to the file/directory starting from the current working dir
 
 ---
 
-[Click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/experience-paths.html) to complete the experiential learning exercise “”.
+[Click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/experience-paths.html) to complete the experiential learning exercise “Tracing paths”.
 
 Before moving on to the next reading, [click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/experience-terminus.html) to complete the experiential learning exercise “Terminus”.
 

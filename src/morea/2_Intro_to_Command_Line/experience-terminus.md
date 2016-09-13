@@ -6,6 +6,7 @@ morea_type: experience
 morea_summary: "Play the game Terminus to get familiarized with Bash."
 morea_sort_order: 2
 morea_labels:
+ - Bash
 ---
 
 # Terminus
