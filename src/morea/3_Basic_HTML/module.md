@@ -8,7 +8,6 @@ morea_prerequisites:
 morea_outcomes:
   - outcome4
 morea_readings:
-  - reading7
   - reading8
   - reading9
   - reading10
