@@ -84,11 +84,11 @@
 
 
 <div class="container">
-  <p>#Paths</p>
+  <h1 id="paths">Paths</h1>
 
 <p>UNIX operating systems follow a hierarchical directory structure. Before I launch into an explanation of how the UNIX file system works, remember that in UNIX, <strong>everything is a file</strong>. Everything. Even outputs, commands, and devices are files.</p>
 
-<p>##File Systems</p>
+<h2 id="file-systems">File Systems</h2>
 
 <p>File systems are how your files are arranged in your computer.</p>
 
@@ -96,7 +96,7 @@
 
 <p>The UNIX file system looks like a tree, where everything starts in the root directory, which is just written as a forward slash: <code class="highlighter-rouge">/</code>. Basically, directories (also known as folders in other OSes) hold files and subdirectories, which hold even more files and subdirectories, and so forth. This tree of directories (and files) is easily navigable as long as you know the path of what you’re looking for.</p>
 
-<p>##Paths</p>
+<h2 id="paths-1">Paths</h2>
 
 <p>A <em>path</em> in the file system traces out the location of a file/directory from a given directory.</p>
 
@@ -106,11 +106,11 @@
 
 <p>When writing out paths for anything (such as arguments), you can write them out as <em>absolute</em> or <em>relative</em> paths.</p>
 
-<p>####Absolute Paths</p>
+<h4 id="absolute-paths">Absolute Paths</h4>
 
 <p>Absolute paths point to the file/directory regardless of the current working directory (the directory you are in). It always includes the root (or <code class="highlighter-rouge">~</code>). The paths in the examples above are written as absolute paths.</p>
 
-<p>####Relative Paths</p>
+<h4 id="relative-paths">Relative Paths</h4>
 
 <p>Relative paths point to the file/directory starting from the current working directory. You write them without the root <code class="highlighter-rouge">/</code>, and just start off as if it’s continuing from where you currently are in your terminal. For example, if I am in <code class="highlighter-rouge">~/Documents</code> and I wanted to access the “helloworld.py” file, I could just write out <code class="highlighter-rouge">DevLeague/helloworld.py</code>.</p>
 
@@ -139,7 +139,7 @@ email@example.com</p>
 
       
       <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: lumen)<br>
-        Last update on: <span>2016-09-13 01:31:41 -1000</span></p>
+        Last update on: <span>2016-09-13 01:45:11 -1000</span></p>
 
       <p style="margin: 0">
         
