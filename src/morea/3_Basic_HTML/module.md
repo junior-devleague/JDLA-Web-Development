@@ -6,12 +6,12 @@ morea_summary: "Learn how to structure your web pages with the basics of HTML"
 morea_outcomes:
   - outcome4
 morea_readings:
-  - reading8
-  - reading9
-  - reading10
-  - reading11
-  - reading12
-  - reading13
+  - reading-what-is-html
+  - reading-syntax-structure
+  - reading-tags
+  - reading-attributes
+  - reading-file-structure
+  - reading-special-media
 morea_experiences:
   - experience3
 morea_labels:
