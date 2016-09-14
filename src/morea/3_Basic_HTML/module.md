@@ -4,13 +4,15 @@ published: true
 morea_id: basic-html
 morea_summary: "Learn how to structure your web pages with the basics of HTML"
 morea_outcomes:
-  - outcome4
+  - outcome-syntax-structure
+  - outcome-tags-attributes
+  - outcome-semantic-html
 morea_readings:
   - reading-what-is-html
   - reading-syntax-structure
   - reading-tags
   - reading-attributes
-  - reading-file-structure
+  - reading-linking-files
   - reading-special-media
 morea_experiences:
   - experience3
