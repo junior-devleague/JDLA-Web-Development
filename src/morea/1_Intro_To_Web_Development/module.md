@@ -3,8 +3,8 @@ title: "Intro to Web Development"
 published: true
 morea_id: intro-to-web-development
 morea_outcomes:
- - outcome1
- - outcome2
+ - outcome-web-dev
+ - outcome-relationship
 morea_readings:
  - reading-guided-tour
  - reading-web-dev
