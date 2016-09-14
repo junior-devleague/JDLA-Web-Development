@@ -6,10 +6,10 @@ morea_outcomes:
  - outcome1
  - outcome2
 morea_readings:
- - reading1
- - reading2
- - reading3
- - reading4
+ - reading-guided-tour
+ - reading-web-dev
+ - reading-relationship
+ - reading-sublime-text
 morea_experiences:
 morea_type: module
 #morea_icon_url: /morea/foo/logo.png
