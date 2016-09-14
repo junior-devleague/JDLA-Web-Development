@@ -11,10 +11,8 @@ morea_readings:
  - reading3
  - reading4
 morea_experiences:
-morea_assessments:
- - assessment1
 morea_type: module
-morea_icon_url: /morea/foo/logo.png
+#morea_icon_url: /morea/foo/logo.png
 morea_summary: "The introduction to our wonderful web development class"
 morea_labels:
  - intro

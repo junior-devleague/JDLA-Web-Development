@@ -1,23 +1,27 @@
 ---
 title: "Intro to Command Line"
 published: true
-morea_id: into-to-command-line
-morea_summary: "Learn the basics of Bash"
-morea_prerequisites:
-  - prerequisite-foo
+morea_id: intro-to-command-line
+morea_summary: "Learn the basics of Bash in the terminal and the UNIX file system"
 morea_outcomes:
-  - outcome2
-  - outcome3
+  - outcome-file-system
+  - outcome-basic-commands
 morea_readings:
-  - reading5
-  - reading6
-  - reading7
+  - reading-shell
+  - reading-paths
+  - reading-basic-bash
 morea_experiences:
-  - experience2
-morea_assessments:
-  #- assessment2
+  - experience-paths
+  - experience-terminus
+  - experience-file-creation
+  - experience-treasure-hunt
+morea_labels:
+ - CLI
+ - Bash
+ - UNIX
+ - beginner
 morea_type: module
 morea_sort_order: 2
 ---
 
-This is an introduction to the command line. 
+This is an introduction to the command line interface, and how to use it with Bash to traverse the UNIX file system.

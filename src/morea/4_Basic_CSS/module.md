@@ -2,8 +2,7 @@
 title: "Basic CSS"
 published: true
 morea_id: basic-css
-morea_summary: "Learn the basics of CSS"
-morea_prerequisites:
+morea_summary: "Learn how to style and design your web pages with the basics of CSS"
 morea_type: module
 morea_outcomes:
 morea_readings:
@@ -13,7 +12,9 @@ morea_readings:
  - reading17
  - reading18
 morea_experiences:
-morea_assessments:
+morea_labels:
+ - CSS
+ - beginner
 morea_sort_order: 4
 ---
 
