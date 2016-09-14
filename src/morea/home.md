@@ -15,5 +15,5 @@ morea_type: home
 -  **Open-source software** In this class, students are using free and open source software and tools. All of their code will be pushed up to public repositories on GitHub. We want to foster an appreciation for and have students understand the importance of free and open source software. 
 - **Software engineering**  Students will be working together on projects, and going through design and project management processes similar to those that professional developers go through. They will learn important skills like planning, teamwork, and debugging. 
  
-###
+### 
 

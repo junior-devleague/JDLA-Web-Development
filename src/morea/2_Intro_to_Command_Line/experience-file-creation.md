@@ -18,10 +18,10 @@ If you don’t remember the commands you need to use or how to use them, look ba
 
 1. In your Desktop, create a directory named after yourself (include first and last name).
 2. Within that folder, make two directories for different projects named *`Project1`* and *`Project2`*, and two files named *`named_with_underscores.txt`* and *`thisIsCamelCase.txt`*.
-3. In each `Project` directory, create an *`index.html`* file and a *`css`* directory.
+3. In each `Project` directory, create an *`index.html`* file, a *`css`* directory, and an *`images`* directory.
 4. Create a *`styles.css`* file in one of the `css` directories, and **copy** it into the other.
-5. Use `subl` to edit the `named_with_underscores.txt` file to say “The statement below is true.”
-6. Use `subl` to edit the `thisIsCamelCase.txt` file to say “The statement above is false.”
+5. Use `subl` to edit the `named_with_underscores.txt` file to say “*The statement below is true.*”
+6. Use `subl` to edit the `thisIsCamelCase.txt` file to say “*The statement above is false.*”
 7. Concatenate both of the above .txt files and print them into the terminal together using one command.
 8. Move each of the above .txt files into separate `Project` folders.
 
