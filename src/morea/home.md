@@ -17,6 +17,4 @@ morea_type: home
  
 ### Who should take this class? 
 
-This class is for anyone who 
-
-
+This class is for anyone who would like to learn how to build their own web application. Interest in self-directed 
