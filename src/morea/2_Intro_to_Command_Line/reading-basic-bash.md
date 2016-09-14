@@ -32,7 +32,7 @@ In Terminus, you performed spells, interacted with items, and traveled to differ
 - `cat [files]` - concatenates and prints the files directly into the terminal. Useful for redirection.
   - Ex. `cat file1 file2 file3` combines the contents of *file1*, *file2*, & *file3* into a single output and prints it into the terminal.
 
-When a command takes in a file/directory name as an argument, you can write out an path instead of only file names in your current working directory. For example, if you are in `~`, you can `cd Desktop/JohnHeadland/Personal_Profile/` instead of doing `cd Desktop`, `cd JohnHeadland`, and then `cd Personal_Profile`.
+When a command takes in a file/directory name as an argument, you can write out a path instead of only file names in your current working directory. For example, if you are in `~`, you can `cd Desktop/JohnHeadland/Personal_Profile/` instead of doing `cd Desktop`, `cd JohnHeadland`, and then `cd Personal_Profile`.
 
 **Remember that case sensitivity matters!** `CD` is not the same as `cd`. The same goes for file/directory names. "*documents*" is not the same as "*Documents*".
 

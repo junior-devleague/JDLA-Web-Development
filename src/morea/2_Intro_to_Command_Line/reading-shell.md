@@ -14,7 +14,7 @@ morea_labels:
 
 A *shell* is the program that passes keyboard commands to the *operating system* (such as Windows, OS X, GNU/Linux, BSD) to carry out.
 
-If you’ve heard of “the terminal” before, you probably just know it as the black box where hackers rapidly type things into. This is somewhat correct. The *terminal emulator* is the window that allows us to use the *command-line interface (CLI)*, which is **where** we directly interact with the shell. It basically allows us to completely control the computer as well as execute commands. If you want absolute authority over your system, you would use the CLI for a fast and efficient experience without having to use your slow and clunky mouse. You also have the added bonus of feeling like an elite hacker while using it!
+If you’ve heard of “the terminal” before, you probably just know it as the black box where hackers rapidly type things into. This is somewhat correct. The **terminal emulator** is the window that allows us to use the **command-line interface (CLI)**, which is *where* we directly interact with the shell. It basically allows us to completely control the computer as well as execute commands. If you want absolute authority over your system, you would use the CLI for a fast and efficient experience without having to use your slow and clunky mouse. You also have the added bonus of feeling like an elite hacker while using it!
 
 The default shell for UNIX operating systems (like Mac OS X and GNU/Linux) is **Bash**. Bash is the command language you use when entering commands into the terminal.
 
