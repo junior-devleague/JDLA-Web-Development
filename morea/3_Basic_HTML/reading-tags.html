@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Tags | JDLA Web Development </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!--  Load bootswatch-based Morea theme file. -->
+  <link rel="stylesheet" href="/JDLA-Web-Development/css/themes/lumen/bootstrap.min.css">
+  <link rel="stylesheet" href="/JDLA-Web-Development/css/style.css">
+  <link rel="stylesheet" href="/JDLA-Web-Development/css/syntax.css">
+  <link rel="shortcut icon" href="/JDLA-Web-Development/favicon.ico" type="image/x-icon"/>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+  <![endif]-->
+
+  <!-- Load Bootstrap JavaScript components -->
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  
+  <script type="text/javascript"
+          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  
+
+  <script>
+    $(window).load(function () {
+      // If on a page associated with a navbar item, make its navbar item 'active'.
+      $('.navbar-nav').find('a[href="' + location.pathname + '"]').parents('li').addClass('active');
+    });
+  </script>
+
+</head>
+<body>
+<!-- Responsive navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!--  Display three horizontal lines when navbar collapsed. -->
+        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/JDLA-Web-Development/index.html"> JDLA Web Development </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        
+        <li><a href="/JDLA-Web-Development/modules/">Modules</a></li>
+        
+        <li><a href="/JDLA-Web-Development/outcomes/">Outcomes</a></li>
+        
+        
+        <li><a href="/JDLA-Web-Development/readings/">Readings</a></li>
+        
+        
+        <li><a href="/JDLA-Web-Development/experiences/">Experiences</a></li>
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="breadcrumb-bar">
+  <div class="container">
+    <ol class="breadcrumb">
+      
+      <li><a href="/JDLA-Web-Development/">Home</a></li>
+      <li><a href="/JDLA-Web-Development/modules">Modules</a></li>
+      <li><a href="/JDLA-Web-Development/modules/basic-html">Basic HTML</a></li>
+      <li class="active">Tags</li>
+    </ol>
+  </div>
+</div>
+
+
+<div class="container">
+  <h1 id="tags">Tags</h1>
+
+<p>All HTML code is comprised of a series of tags. In order to make a functional website, tags must be used very carefully, and it’s often not obvious why we use certain tags where we do. This is to organize your website’s content into easy-to-manage sections, as well as for styling and scripting purposes.</p>
+
+<p>Here we have our HTML skeleton:</p>
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+    <span class="nt">&lt;head&gt;</span>
+        <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;title&gt;</span>Example Web Page<span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+
+   <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+</div>
+
+<p>You’ve already learned what types of data go into <code class="highlighter-rouge">&lt;head&gt;</code> and <code class="highlighter-rouge">&lt;body&gt;</code>. Every single HTML document must follow the structure above.</p>
+
+<p>One of the most common tags you will using is the <code class="highlighter-rouge">&lt;p&gt;</code> tag. The <code class="highlighter-rouge">&lt;p&gt;</code> tag defines a paragraph. In HTML, you need to indicate different paragraphs by using the <code class="highlighter-rouge">&lt;p&gt;</code> tag, because the browser registers everything that is not in a tag as plaintext, and it will ignore indents and extra spaces.</p>
+
+<p>In your index.html file, delete whatever you’ve written inside of the <code class="highlighter-rouge">&lt;body&gt;</code> tags before, and add the following:</p>
+
+<p><code class="highlighter-rouge">&lt;p&gt;Hello World&lt;/p&gt;</code></p>
+
+<p>From now on, do <strong>NOT</strong> enter any plaintext into your HTML code. Everything should be enclosed in a tag.</p>
+
+<p>Your file should now look something like this:</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;title&gt;</span>Example Web Page<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;p&gt;</span> Hello World <span class="nt">&lt;/p&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+</div>
+
+<p>Open this file in Google Chrome.</p>
+
+<p>Congratulations! You’ve just made your first (albeit, very basic) website!</p>
+
+<p>Please note the <em>indentation</em>. While spacing does not matter in HTML, it is important as a coder to indent elements that are within other elements. For example, the following:</p>
+
+<p><code class="highlighter-rouge"><span class="cp">&lt;!DOCTYPE html&gt;</span><span class="nt">&lt;html&gt;&lt;head&gt;&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;&lt;title&gt;</span>Example Web Page<span class="nt">&lt;/title&gt;&lt;/head&gt;</span> <span class="nt">&lt;body&gt;&lt;p&gt;</span> Hello World <span class="nt">&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</span></code></p>
+
+<p>Is the exact same to the browser as what’s in your file right now. But that’s a lot harder to read, right? Browsers don’t care about how your code looks, but once your page gets filled with more and more elements, it’ll become extremely confusing. So, we need to indent the <code class="highlighter-rouge">&lt;p&gt;</code> element to indicate that it’s <em>inside</em> the body of the page.</p>
+
+<p>Deciding what tags to nest inside of other tags is a huge part of writing good HTML code. The reason isn’t obvious right now, but it will be important when we talk about styling our page. (AKA adding pretty colors, fonts, and cool text effects.) More on that in the next module!</p>
+
+<p>Another extremely common tag you will be using in your websites is the <code class="highlighter-rouge">&lt;h1&gt;</code> tag. The “h1” is for “Heading 1”. Heading 1 is, by default, the largest heading you have. We have multiple heading tags, <code class="highlighter-rouge">&lt;h1&gt;</code> through <code class="highlighter-rouge">&lt;h6&gt;</code>.</p>
+
+<h1 id="h1">h1</h1>
+<h2 id="h2">h2</h2>
+<h3 id="h3">h3</h3>
+<h4 id="h4">h4</h4>
+<h5 id="h5">h5</h5>
+<h6 id="h6">h6</h6>
+
+<p>Modify your code such that we have an element with the <code class="highlighter-rouge">&lt;h1&gt;</code> tag before the <code class="highlighter-rouge">&lt;p&gt;</code> tag.</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;title&gt;</span>Example Web Page<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;h1&gt;</span> Some heading here <span class="nt">&lt;/h1&gt;</span>
+		<span class="nt">&lt;p&gt;</span> Hello World <span class="nt">&lt;/p&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+</div>
+<p>Save and then refresh your page!</p>
+
+<p>Do you see what happened? Now, play around with some of the other headings.</p>
+
+<p>Another common tag you will be using is the <code class="highlighter-rouge">&lt;ul&gt;</code> and <code class="highlighter-rouge">&lt;li&gt;</code> tags. The ul tag defines an unordered list, and each item in that list (between the ul tags) must be surrounded by the <code class="highlighter-rouge">&lt;li&gt;</code> tag.</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+	<span class="nt">&lt;head&gt;</span>
+		<span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+		<span class="nt">&lt;title&gt;</span>Example Web Page<span class="nt">&lt;/title&gt;</span>
+	<span class="nt">&lt;/head&gt;</span>
+	<span class="nt">&lt;body&gt;</span>
+		<span class="nt">&lt;h1&gt;</span> Some heading here <span class="nt">&lt;/h1&gt;</span>
+		<span class="nt">&lt;p&gt;</span> Hello World <span class="nt">&lt;/p&gt;</span>
+		<span class="nt">&lt;h2&gt;</span> This is a list of my favorite things: <span class="nt">&lt;/h2&gt;</span>
+		<span class="nt">&lt;ul&gt;</span>
+			<span class="nt">&lt;li&gt;</span> Raindrops on roses <span class="nt">&lt;/li&gt;</span>
+			<span class="nt">&lt;li&gt;</span> Whiskers on kittens <span class="nt">&lt;/li&gt;</span>
+			<span class="nt">&lt;li&gt;</span> Bright copper kettles <span class="nt">&lt;/li&gt;</span>
+			<span class="nt">&lt;li&gt;</span> Warm woollen mittens <span class="nt">&lt;/li&gt;</span>
+		<span class="nt">&lt;/ul&gt;</span>
+	<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+</div>
+
+<p>Given that <code class="highlighter-rouge">&lt;ul&gt;</code> defines an unordered list, what do you think the <code class="highlighter-rouge">&lt;ol&gt;</code> tag specifies?</p>
+
+<h2 id="self-closing-tags">Self-closing Tags</h2>
+
+<p>There are some special tags in HTML that don’t require a closing tag. For example, <code class="highlighter-rouge">&lt;meta&gt;</code> tags do not require closing tags, nor does the <code class="highlighter-rouge">&lt;img&gt;</code> tag. The meta tags are extremely important, because they provide the browser with metadata, or important information about the site. Some common meta tags are:</p>
+
+<p><code class="highlighter-rouge">&lt;meta name = “author” content = “Your Name Here”&gt; </code></p>
+
+<p><code class="highlighter-rouge">&lt;meta name = “description” content = “Some site description here”&gt; </code></p>
+
+<p>These meta tags are pretty self explanatory. They don’t appear on your website, but they provide information to the browser about your website, some of which can be important, especially the description tag. This way, users can read your site description before clicking.</p>
+
+<hr />
+
+
+</div>
+
+
+
+
+<script src="/JDLA-Web-Development/js/scrollIfAnchor.js"></script>
+
+<div class="footer-background hidden-print">
+  <footer>
+    <div class="container page-footer">
+      
+      <p>Web Development | Junior DevLeague Academy |
+junior@devleague.com</p>
+
+      
+      <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: lumen)<br>
+        Last update on: <span>2016-09-14 00:49:37 -1000</span></p>
+
+      <p style="margin: 0">
+        
+        6 modules
+        
+        | 5 outcomes
+        
+        
+        | 18 readings
+        
+        
+        | 5 experiences
+        
+        
+      </p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

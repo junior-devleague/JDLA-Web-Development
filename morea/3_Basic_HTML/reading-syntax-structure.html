@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Syntax and structure | JDLA Web Development </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!--  Load bootswatch-based Morea theme file. -->
+  <link rel="stylesheet" href="/JDLA-Web-Development/css/themes/lumen/bootstrap.min.css">
+  <link rel="stylesheet" href="/JDLA-Web-Development/css/style.css">
+  <link rel="stylesheet" href="/JDLA-Web-Development/css/syntax.css">
+  <link rel="shortcut icon" href="/JDLA-Web-Development/favicon.ico" type="image/x-icon"/>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+  <![endif]-->
+
+  <!-- Load Bootstrap JavaScript components -->
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  
+  <script type="text/javascript"
+          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  
+
+  <script>
+    $(window).load(function () {
+      // If on a page associated with a navbar item, make its navbar item 'active'.
+      $('.navbar-nav').find('a[href="' + location.pathname + '"]').parents('li').addClass('active');
+    });
+  </script>
+
+</head>
+<body>
+<!-- Responsive navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!--  Display three horizontal lines when navbar collapsed. -->
+        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/JDLA-Web-Development/index.html"> JDLA Web Development </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        
+        <li><a href="/JDLA-Web-Development/modules/">Modules</a></li>
+        
+        <li><a href="/JDLA-Web-Development/outcomes/">Outcomes</a></li>
+        
+        
+        <li><a href="/JDLA-Web-Development/readings/">Readings</a></li>
+        
+        
+        <li><a href="/JDLA-Web-Development/experiences/">Experiences</a></li>
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="breadcrumb-bar">
+  <div class="container">
+    <ol class="breadcrumb">
+      
+      <li><a href="/JDLA-Web-Development/">Home</a></li>
+      <li><a href="/JDLA-Web-Development/modules">Modules</a></li>
+      <li><a href="/JDLA-Web-Development/modules/basic-html">Basic HTML</a></li>
+      <li class="active">Syntax and structure</li>
+    </ol>
+  </div>
+</div>
+
+
+<div class="container">
+  <h1 id="syntax-and-structure">Syntax and Structure</h1>
+
+<p>Before we can write any code in html, there are some things we have to go over. One of those things is basic syntax.</p>
+
+<h2 id="what-is-syntax">What is “syntax”?</h2>
+
+<p>Syntax is a set of rules that must be followed. Every language has its own syntax; for example, the English language requires that we end our sentences with a punctuation mark, begin with capital letters, use proper pronouns, etc. Computer languages have syntax too. <strong>You can think of syntax as the grammar or sentence structure of a language.</strong></p>
+
+<p>Right now, we’ll go over the basic syntax of HTML, which you’ll need for the rest of this module.</p>
+
+<h2 id="elements-and-tags">Elements and tags</h2>
+
+<p>At its most basic level, all HTML is is a series of carefully nested elements. HTML documents are comprised of multiple elements to provide content and structure to a document or web page.</p>
+
+<p>In HTML, with a few exceptions (which we will go over later), all elements/tags have an opening and closing <em>tag</em>. A tag looks like this:</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;tagname&gt;</span>Content goes here...<span class="nt">&lt;/tagname&gt;</span>
+</code></pre>
+</div>
+
+<p>An <strong>opening</strong> tag is declared when the tag name is enclosed by angle brackets (greater than and less than symbols).</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;tagname&gt;</span>
+<span class="c">&lt;!-- An example of an opening tag--&gt;</span>
+</code></pre>
+</div>
+
+<p>A <strong>closing</strong> tag is declared when there is a forward slash <code class="highlighter-rouge">/</code> before the tag <strong>name</strong>.</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;/tagname&gt;</span>
+<span class="c">&lt;!-- An example of a closing element tag--&gt;</span>
+</code></pre>
+</div>
+
+<p>An HTML element is defined as everything from the opening tag to the closing tag:</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>My first paragraph.<span class="nt">&lt;/p&gt;</span>
+<span class="c">&lt;!-- An example of a paragraph tag in HTML. The &lt;p&gt; &lt;/p&gt; tags and what goes inside is considered a single element in HTML--&gt;</span>
+</code></pre>
+</div>
+<p>We also have comments, denoted by <code class="highlighter-rouge">&lt;!-- Comment here --&gt;</code>, which are just little notes for the coder, and ignored by the computer/browser.</p>
+
+<h2 id="creating-your-first-web-page">Creating your first web page</h2>
+
+<p>Now that you can write tags, we can move on to creating your first web page.
+However, there are still a few more things we have to go through before we can view our webpage.</p>
+
+<p>The first thing we must discuss is the HTML skeleton:</p>
+
+<h3 id="the-html-skeleton">The HTML Skeleton</h3>
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+    <span class="nt">&lt;head&gt;</span>
+        <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;title&gt;</span>Example Web Page<span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+
+   <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+</div>
+
+<p>Please type the code into your index.html file, <strong>with the correct indentation!</strong></p>
+
+<p><strong>Also, it’s important to write your closing tag immediately after writing your opening tag before any nested content.</strong> This makes it easier to see what goes inside of what and to make sure you end elements properly. If you don’t do this, after some point you won’t be able to keep track of all the tags you’ve opened.</p>
+
+<p>Now, we can go over what each part means.</p>
+
+<p>Let’s start with the first line:</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</code></pre>
+</div>
+
+<p>This is your DOCTYPE declaration, and <em>must be the first line in every HTML document</em>. This line tells the browser what type of document we are working with.</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+</div>
+
+<p>This tag is used indicate that everything within the opening and closing tags is HTML code. Any and all HTML needs to be inside of this element.</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
+
+<span class="nt">&lt;/head&gt;</span>
+</code></pre>
+</div>
+
+<p>The head tag is used to provide information about the webpage. <strong>None of the code inside the head tag will be displayed on your web page.</strong> You also link together your scripts, stylesheets, and more inside the head.</p>
+
+<p>A tag you must have inside the head tag is the <code class="highlighter-rouge">&lt;title&gt;&lt;/title&gt;</code> tag. You see the contents of the <code class="highlighter-rouge">&lt;title&gt;</code> tag written on the tabs of your browser.</p>
+
+<p>You also need to provide metadata (descriptions of your website, defining the character set you’re using, etc.) to the browser in the head tag.</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;body&gt;</span>
+
+<span class="nt">&lt;/body&gt;</span>
+</code></pre>
+</div>
+
+<p>The body tag contains all the content that is seen and displayed on your website.</p>
+
+<h2 id="congratulations">Congratulations</h2>
+
+<p>You now have a HTML file that you can edit!</p>
+
+<p>Try typing some text in the body tag and then open the HTML file in your browser.</p>
+
+<p>Drag the HTML file onto the browser icon on your Desktop. <strong>The browser you will be using for this class is Google Chrome.</strong></p>
+
+<hr />
+
+
+</div>
+
+
+
+
+<script src="/JDLA-Web-Development/js/scrollIfAnchor.js"></script>
+
+<div class="footer-background hidden-print">
+  <footer>
+    <div class="container page-footer">
+      
+      <p>Web Development | Junior DevLeague Academy |
+junior@devleague.com</p>
+
+      
+      <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: lumen)<br>
+        Last update on: <span>2016-09-14 00:49:37 -1000</span></p>
+
+      <p style="margin: 0">
+        
+        6 modules
+        
+        | 5 outcomes
+        
+        
+        | 18 readings
+        
+        
+        | 5 experiences
+        
+        
+      </p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
