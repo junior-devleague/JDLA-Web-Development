@@ -18,3 +18,10 @@
     height: 100%;
 }
 
+p, ul, ol {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 22px;
+}
