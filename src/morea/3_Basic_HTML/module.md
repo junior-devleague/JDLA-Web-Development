@@ -15,7 +15,10 @@ morea_readings:
   - reading-linking-files
   - reading-special-media
 morea_experiences:
-  - experience3
+  - experience-profile
+  - experience-debug-html
+  - experience-linking-files
+  - experience-special-media
 morea_labels:
  - HTML
  - beginner

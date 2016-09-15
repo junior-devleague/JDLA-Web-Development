@@ -134,6 +134,6 @@ You can combine id’s or classes with an anchor tag to create _page jumps_, aka
 
 ---
 
-You’re just about ready now to do your first exercise! Using all that you’ve learned so far, you will create a personal profile. [Click here](link here) to go the first experiential learning exercise in this module. 
+You’re just about ready now to do your first exercise! Using all that you’ve learned so far, you will create a personal profile. [Click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/experience-profile.html) to go the first experiential learning exercise in this module. 
 
 After you complete the exercise, move on to the fifth reading, [“Linking HTML files”](https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/reading-linking-files.html).

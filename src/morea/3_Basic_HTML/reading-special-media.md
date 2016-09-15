@@ -2,7 +2,7 @@
 title: "Special Media and Self-Directed Learning"
 published: true
 morea_id: reading-special-media
-morea_summary: "An introduction W3C to conduct self-driected learning by researching special media, a feature exclusive to HTML5"
+morea_summary: "An introduction W3C to conduct self-directed learning by researching special media, a feature exclusive to HTML5"
 morea_type: reading
 morea_sort_order: 13
 morea_labels:

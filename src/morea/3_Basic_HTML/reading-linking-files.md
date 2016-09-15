@@ -41,8 +41,7 @@ This is because if you’re on that page, that means you’ve clicked that link,
 Also, you usually want your nav bar to be at the beginning of your document, before any of the content. It should be one of the first elements that goes inside of the body! 
 
 ---
-
-Given all of this, please go on to the [second exercise](link here) in Experiential Learning, to test your understanding of basic HTML syntax. Then, continue to the [third exercise](link here), where you will be asked to link files together using what you’ve just learned!
+Given all of this, please go on to the [second exercise](https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/experience-debug-html.html) in Experiential Learning to test your understanding of basic HTML syntax. Then, continue to the [third exercise](https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/experience-linking-files.html), where you will be asked to link files together using what you’ve just learned!
 
 After the exercises, move on to the final reading of this module, [“Special Media and Self-Directed Learning”](https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/reading-special-media.html).
 
