@@ -19,17 +19,17 @@ The modules are the individual topics that we will cover in this course. Each to
 
 In turn, each module contains its own learning outcomes, readings, and experiential learning. 
 
-### Learning Outcomes
+- ### Learning Outcomes
 
-The learning outcomes are what we expect you to have learned and understood by the end of the module.
+- The learning outcomes are what we expect you to have learned and understood by the end of the module.
 
-### Readings
+- ### Readings
 
-Readings are the meat of the content. As the name implies, each module has several readings on the topic of the module. There are also screencasts (basically, instructional videos) to help with your comprehension, as it may be easier for you to understand things after watching us, the instructors, do the things the readings cover. At the end of some of the readings,  you will complete the corresponding experiential learning activities.
+- Readings are the meat of the content. As the name implies, each module has several readings on the topic of the module. There are also screencasts (basically, instructional videos) to help with your comprehension, as it may be easier for you to understand things after watching us, the instructors, do the things the readings cover. At the end of some of the readings,  you will complete the corresponding experiential learning activities.
 
-### Experiential Learning
+- ### Experiential Learning
 
-The experiential learnings are the exercises you must complete after certain readings in order to get a hands-on learning experience and fully understand the concepts. Coding is difficult to learn just by reading and watching videos. Actually doing the exercises and coding challenges is crucial to your education here at Jr DevLeague Academy.
+- The experiential learnings are the exercises you must complete after certain readings in order to get a hands-on learning experience and fully understand the concepts. Coding is difficult to learn just by reading and watching videos. Actually doing the exercises and coding challenges is crucial to your education here at Jr DevLeague Academy.
 
 ## Navigating JDLA Web Development
 
