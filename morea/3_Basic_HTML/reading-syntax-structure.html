@@ -98,30 +98,26 @@
 
 <p>In HTML, with a few exceptions (which we will go over later), all elements/tags have an opening and closing <em>tag</em>. A tag looks like this:</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;tagname&gt;</span>Content goes here...<span class="nt">&lt;/tagname&gt;</span>
-</code></pre>
-</div>
+<div class="language-html highlighter-rouge"><pre class="codehilite"><code><span class="nt">&lt;tagname&gt;</span>Content goes here...<span class="nt">&lt;/tagname&gt;</span>
+</code></pre></div>
 
 <p>An <strong>opening</strong> tag is declared when the tag name is enclosed by angle brackets (greater than and less than symbols).</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;tagname&gt;</span>
+<div class="language-html highlighter-rouge"><pre class="codehilite"><code><span class="nt">&lt;tagname&gt;</span>
 <span class="c">&lt;!-- An example of an opening tag--&gt;</span>
-</code></pre>
-</div>
+</code></pre></div>
 
 <p>A <strong>closing</strong> tag is declared when there is a forward slash <code class="highlighter-rouge">/</code> before the tag <strong>name</strong>.</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;/tagname&gt;</span>
+<div class="language-html highlighter-rouge"><pre class="codehilite"><code><span class="nt">&lt;/tagname&gt;</span>
 <span class="c">&lt;!-- An example of a closing element tag--&gt;</span>
-</code></pre>
-</div>
+</code></pre></div>
 
 <p>An HTML element is defined as everything from the opening tag to the closing tag:</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>My first paragraph.<span class="nt">&lt;/p&gt;</span>
+<div class="language-html highlighter-rouge"><pre class="codehilite"><code><span class="nt">&lt;p&gt;</span>My first paragraph.<span class="nt">&lt;/p&gt;</span>
 <span class="c">&lt;!-- An example of a paragraph tag in HTML. The &lt;p&gt; &lt;/p&gt; tags and what goes inside is considered a single element in HTML--&gt;</span>
-</code></pre>
-</div>
+</code></pre></div>
 <p>We also have comments, denoted by <code class="highlighter-rouge">&lt;!-- Comment here --&gt;</code>, which are just little notes for the coder, and ignored by the computer/browser.</p>
 
 <h2 id="creating-your-first-web-page">Creating your first web page</h2>
@@ -132,7 +128,7 @@ However, there are still a few more things we have to go through before we can v
 <p>The first thing we must discuss is the HTML skeleton:</p>
 
 <h3 id="the-html-skeleton">The HTML Skeleton</h3>
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<div class="language-html highlighter-rouge"><pre class="codehilite"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="nt">&lt;html&gt;</span>
     <span class="nt">&lt;head&gt;</span>
         <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
@@ -142,8 +138,7 @@ However, there are still a few more things we have to go through before we can v
 
    <span class="nt">&lt;/body&gt;</span>
 <span class="nt">&lt;/html&gt;</span>
-</code></pre>
-</div>
+</code></pre></div>
 
 <p>Please type the code into your index.html file, <strong>with the correct indentation!</strong></p>
 
@@ -153,25 +148,22 @@ However, there are still a few more things we have to go through before we can v
 
 <p>Let’s start with the first line:</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
-</code></pre>
-</div>
+<div class="language-html highlighter-rouge"><pre class="codehilite"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</code></pre></div>
 
 <p>This is your DOCTYPE declaration, and <em>must be the first line in every HTML document</em>. This line tells the browser what type of document we are working with.</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+<div class="language-html highlighter-rouge"><pre class="codehilite"><code><span class="nt">&lt;html&gt;</span>
 
 <span class="nt">&lt;/html&gt;</span>
-</code></pre>
-</div>
+</code></pre></div>
 
 <p>This tag is used indicate that everything within the opening and closing tags is HTML code. Any and all HTML needs to be inside of this element.</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
+<div class="language-html highlighter-rouge"><pre class="codehilite"><code><span class="nt">&lt;head&gt;</span>
 
 <span class="nt">&lt;/head&gt;</span>
-</code></pre>
-</div>
+</code></pre></div>
 
 <p>The head tag is used to provide information about the webpage. <strong>None of the code inside the head tag will be displayed on your web page.</strong> You also link together your scripts, stylesheets, and more inside the head.</p>
 
@@ -179,11 +171,10 @@ However, there are still a few more things we have to go through before we can v
 
 <p>You also need to provide metadata (descriptions of your website, defining the character set you’re using, etc.) to the browser in the head tag.</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;body&gt;</span>
+<div class="language-html highlighter-rouge"><pre class="codehilite"><code><span class="nt">&lt;body&gt;</span>
 
 <span class="nt">&lt;/body&gt;</span>
-</code></pre>
-</div>
+</code></pre></div>
 
 <p>The body tag contains all the content that is seen and displayed on your website.</p>
 
@@ -215,7 +206,7 @@ junior@devleague.com</p>
 
       
       <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: lumen)<br>
-        Last update on: <span>2016-09-14 17:51:25 -1000</span></p>
+        Last update on: <span>2016-09-14 22:17:44 -1000</span></p>
 
       <p style="margin: 0">
         
