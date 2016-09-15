@@ -2,7 +2,7 @@
 title: "Special Media and Self-Directed Learning"
 published: true
 morea_id: reading-special-media
-morea_summary: "An introduction W3C to conduct self-directed learning by researching special media, a feature exclusive to HTML5"
+morea_summary: "An introduction to special media in HTML5 and self-directed learning"
 morea_type: reading
 morea_sort_order: 13
 morea_labels:
@@ -31,4 +31,4 @@ The W3C has a great resource called [w3schools](http://www.w3schools.com/html/de
 
 Go on to the [last exercise](https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/experience-special-media.html) of the module! This final exercise will require you to do independent research and utilize outside resources, because this class is about more than just copying code that we give you. Good luck!
 
-
+<br>
