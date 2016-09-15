@@ -45,7 +45,7 @@ For example:
 
 ```html
 <p id = “aboutDogs”> 
-	This is a paragraph about dogs. Dogs are cool. Dogs are awesome. Dogs are the best. I love Dogs. Dogs are amazing.
+This is a paragraph about dogs. Dogs are cool. Dogs are awesome. Dogs are the best. I love Dogs. Dogs are amazing.
 </p>
 ```
 
@@ -56,25 +56,25 @@ On the other hand, we have classes, which are used to identify multiple elements
 ```html
 <p class = “animalDescription”>
 
-	Dogs are cool.
-	I love dogs. 
-	Dogs are AMAZING!!!!!!
+Dogs are cool.
+I love dogs. 
+Dogs are AMAZING!!!!!!
 
 </p>
 
 <p class = “animalDescription”>
 
-	Cats are evil.
-	Cats are manipulative and lazy and self-serving. 
-	Cats attempt to take over the world. We must not allow that to happen!!
+Cats are evil.
+Cats are manipulative and lazy and self-serving. 
+Cats attempt to take over the world. We must not allow that to happen!!
 
 </p>
 
 <p class = “animalDescription”>
 
-	Zebras are weird.
-	From an evolutionary standpoint, I have no clue why they exist.
-	Their color combination is really ugly. 
+Zebras are weird.
+From an evolutionary standpoint, I have no clue why they exist.
+Their color combination is really ugly. 
 
 </p>
 
@@ -86,25 +86,25 @@ You can also combine id’s and classes, and have good, descriptive, HTML code t
 ```html
 <p class = “animalDescription” id = “aboutDogs”>
 
-	Dogs are cool.
-	I love dogs. 
-	Dogs are AMAZING!!!!!!
+Dogs are cool.
+I love dogs. 
+Dogs are AMAZING!!!!!!
 
 </p>
 
 <p class = “animalDescription” id = “aboutCats”>
 
-	Cats are evil.
-	Cats are manipulative and lazy and self-serving. 
-	Cats attempt to take over the world. We must not allow that to happen!!
+Cats are evil.
+Cats are manipulative and lazy and self-serving. 
+Cats attempt to take over the world. We must not allow that to happen!!
 
 </p>
 
-<p class = “animalDescription” id = “aboutZebras">
+<p class = “animalDescription” id = “aboutZebras”>
 
-	Zebras are weird.
-	From an evolutionary standpoint, I have no clue why they exist.
-	Their color combination is really ugly. 
+Zebras are weird.
+From an evolutionary standpoint, I have no clue why they exist.
+Their color combination is really ugly. 
 
 </p>
 
@@ -126,7 +126,7 @@ You can actually create clickable images that link elsewhere by nesting an `<img
 
 ```html
 <a href="link here">
-	<img src="images/devleagueLogo.png" alt="DevLeague Logo">
+<img src="images/devleagueLogo.png" alt="DevLeague Logo">
 </a>
 ```
 
@@ -135,3 +135,5 @@ You can combine id’s or classes with an anchor tag to create _page jumps_, aka
 ---
 
 You’re just about ready now to do your first exercise! Using all that you’ve learned so far, you will create a personal profile. [Click here](link here) to go the first experiential learning exercise in this module. 
+
+After you complete the exercise, move on to the fifth reading, [“Linking HTML files”](https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/reading-linking-files.html).

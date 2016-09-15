@@ -1,7 +1,7 @@
 ---
-title: "Tags"
+title: "Tags and Elements"
 published: true
-morea_id: reading-tags
+morea_id: reading-tags-elements
 morea_summary: "An explanation of HTML tags"
 morea_type: reading
 morea_sort_order: 10
@@ -9,7 +9,7 @@ morea_labels:
  - HTML
 ---
 
-# Tags
+# Tags and Elements
 
 All HTML code is comprised of a series of tags. In order to make a functional website, tags must be used very carefully, and it’s often not obvious why we use certain tags where we do. This is to organize your website’s content into easy-to-manage sections, as well as for styling and scripting purposes. 
 
@@ -129,4 +129,4 @@ These meta tags are pretty self explanatory. They don’t appear on your website
 
 ---
 
-
+[Click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/reading-attributes.html) to move on to the fourth reading, “Attributes”.
