@@ -82,7 +82,188 @@
 
 
 <div class="container">
-  
+  <h1 id="sublime-text">Sublime Text</h1>
+
+<p>Sublime Text is a powerful, feature-heavy text editor. Text editors are programs used to write code in plaintext, and are different from word processors (ex. Microsoft Word, Google Docs) because of the lack of formatting and styling.</p>
+
+<h2 id="setup">Setup</h2>
+
+<p>In this portion we are going to go over the setup for your coding environment so you can start coding for this class.</p>
+
+<h3 id="downloading-packages">Downloading Packages</h3>
+
+<p>One of the great perks of Sublime Text is their open source plugin library. Plugins are designed for developers by developers to add certain features to Sublime Text.
+We are going to get a few basic packages for Sublime Text set up. But before we do we have to get the package manager from <a href="https://packagecontrol.io/installation">packagecontrol.io</a></p>
+
+<h4 id="instructions-from-packagecontroliohttpspackagecontrolioinstallation">Instructions from <a href="https://packagecontrol.io/installation">Packagecontrol.io</a></h4>
+
+<ol>
+  <li>Open up the command palette: <code class="highlighter-rouge">Cmd + Shift + P</code></li>
+  <li>Paste this code in the in the command palette:<br />
+  <code class="highlighter-rouge">import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)</code></li>
+  <li>Restart Sublime Text</li>
+</ol>
+
+<p>When finished, we can start downloading packages into Sublime Text.</p>
+
+<h4 id="installing-packages">Installing Packages</h4>
+
+<p>To download and install packages:</p>
+<ol>
+  <li><code class="highlighter-rouge">cmd + shift + p</code> to open the command palette in Sublime</li>
+  <li>Type in <code class="highlighter-rouge">package install</code> and you should see and highlight the <code class="highlighter-rouge">Package Control: Install Package</code></li>
+  <li>Wait for text area to show then type the name of the package you want to install and press enter when found.</li>
+  <li>Restart Sublime Text and you’re good to go!</li>
+</ol>
+
+<p>Recommended plugins:</p>
+<ul>
+  <li>JSLint - Lints your JavaScript code. Linting finds your syntax errors and sub-optimally written code.</li>
+  <li>DocBlockr - Simplifies commenting in JavaScript for both reulgar inline and docblock comments.</li>
+</ul>
+
+<h3 id="subl-shortcut">subl shortcut</h3>
+
+<p>You can configure your shell to open files and folders easier by creating the <code class="highlighter-rouge">subl</code> shortcut in Bash.</p>
+
+<p>To set up the subl command in Bash we need to create a symbolic link (a file that references/points to another file).</p>
+
+<p>In your terminal, type in: <code class="highlighter-rouge">ln -s /Applications/Sublime\ Text\ 3.app/Content/SharedSupport/bin/subl /usr/local/bin/subl</code></p>
+
+<p>Now you can open any file or directory by inputting the Bash command:</p>
+<ul>
+  <li><code class="highlighter-rouge">subl &lt;file&gt;</code> - Opens the specified file.</li>
+  <li><code class="highlighter-rouge">subl &lt;filepath&gt;</code> - Opens the specified path.</li>
+  <li><code class="highlighter-rouge">subl .</code> - Opens the directory where the command was run.</li>
+</ul>
+
+<p>You can also open files by dragging them from your Finder onto the Sublime Text application icon on the Dock, or by dragging the file directly onto your open Sublime Text window.</p>
+
+<p>If you didn’t really understand this section, don’t worry. We’ll go over the command line and Bash in the next module.</p>
+
+<h2 id="editing-files">Editing Files</h2>
+
+<p>First open a file from your terminal, finder, or sidebar (“file tree”).
+Once it’s open, simply start typing code. When you’re done, save.</p>
+
+<p>You can tell when files have been saved by looking at the tab for the file on the tab bar of your editor.</p>
+
+<ul>
+  <li>
+    <p>If it has a circle next to the name then the file has not been saved.</p>
+  </li>
+  <li>
+    <p>If the file has been saved then instead of a circle you should see an X.</p>
+  </li>
+</ul>
+
+<p>Remember, saving files is important. Don’t end up being the person who writes a hundred lines of code and then loses it because you didn’t save.</p>
+
+<h2 id="panelsworkspace-setup">Panels/Workspace Setup</h2>
+
+<p>Part of being a good developer is having a good workspace. Sublime Text has tools and shortcuts that help you create a good working environment. One of those tools is the Pane feature.</p>
+
+<p>Panes allow you to work on multiple files at the same time in your editor.</p>
+
+<p>To create a pane go to <code class="highlighter-rouge">VIEW &gt; Panes</code> and then select the type of split screen you want.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Screen Split</th>
+      <th>Shortcut</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Split Up</td>
+      <td><code class="highlighter-rouge">⌘ + ↑</code></td>
+    </tr>
+    <tr>
+      <td>Split Down</td>
+      <td><code class="highlighter-rouge">⌘ + ↓</code></td>
+    </tr>
+    <tr>
+      <td>Split Right</td>
+      <td><code class="highlighter-rouge">⌘ + →</code></td>
+    </tr>
+    <tr>
+      <td>Split Left</td>
+      <td><code class="highlighter-rouge">⌘ + ←</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="toolsshortcutskeys">Tools/Shortcuts/Keys</h2>
+
+<ul>
+  <li><code class="highlighter-rouge">⌘</code> : Command key</li>
+  <li><code class="highlighter-rouge">⌃</code> : Control key</li>
+  <li><code class="highlighter-rouge">⌫</code> : Delete key</li>
+  <li><code class="highlighter-rouge">↑</code> : Up arrow key</li>
+  <li><code class="highlighter-rouge">←</code> : Left arrow key</li>
+  <li><code class="highlighter-rouge">→</code> : Right arrow key</li>
+  <li><code class="highlighter-rouge">↓</code> : Down arrow key</li>
+  <li><code class="highlighter-rouge">⌥</code> : Option or Alt key</li>
+  <li><code class="highlighter-rouge">↩</code> : Return or Enter key</li>
+  <li><code class="highlighter-rouge">⇧</code> : Shift key</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Shortcut</th>
+      <th>Command</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Save File</td>
+      <td><code class="highlighter-rouge">⌘ + S</code></td>
+    </tr>
+    <tr>
+      <td>Save File As</td>
+      <td><code class="highlighter-rouge">⌘ + ⇧ + S</code></td>
+    </tr>
+    <tr>
+      <td>New File in New Tab</td>
+      <td><code class="highlighter-rouge">⌘ + N</code></td>
+    </tr>
+    <tr>
+      <td>New Tab</td>
+      <td><code class="highlighter-rouge">⌘ + T</code></td>
+    </tr>
+    <tr>
+      <td>Open File</td>
+      <td><code class="highlighter-rouge">⌘ + O</code></td>
+    </tr>
+    <tr>
+      <td>Multiline selector</td>
+      <td><code class="highlighter-rouge">⌥ + mouse drag</code></td>
+    </tr>
+    <tr>
+      <td>Multiline Selector</td>
+      <td><code class="highlighter-rouge">⌘ + mouse click</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="goto-anything">Goto Anything</h3>
+
+<p>Use Goto Anything to open files and instantly jump to given lines, words, or symbols in just a few keystrokes.</p>
+
+<p>Invoke Goto Anything with: <code class="highlighter-rouge">⌘ + P</code></p>
+
+<p>It is possible to:</p>
+<ul>
+  <li>Type part of a file name to open it.</li>
+  <li>Type <code class="highlighter-rouge">@</code> to jump to symbols, <code class="highlighter-rouge">#</code> to search within the file, and <code class="highlighter-rouge">:</code> to go to a line number.</li>
+  <li>These shortcuts can be combined, so <code class="highlighter-rouge">tp@rf</code> may take you to a function <code class="highlighter-rouge">read_file within a file text_parser.py</code>. Similarly, <code class="highlighter-rouge">tp:100</code> would take you to line 100 of the same file.</li>
+</ul>
+
+<h2 id="lets-move-on">Let’s move on</h2>
+
+<p>This reading concludes the first module, “Intro to Web Development”. Now that you’ve set up your coding environment for the rest of the class, you’re ready to start your journey to become a full-fledged web developer! Begin by moving on to the second module, <a href="https://junior-devleague.github.io/JDLA-Web-Development/modules/intro-to-command-line/">“Intro to Command Line”</a>.</p>
 
 </div>
 
@@ -100,7 +281,7 @@ junior@devleague.com</p>
 
       
       <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: lumen)<br>
-        Last update on: <span>2016-09-14 14:53:45 -1000</span></p>
+        Last update on: <span>2016-09-14 17:42:27 -1000</span></p>
 
       <p style="margin: 0">
         
