@@ -29,6 +29,6 @@ The W3C has a great resource called [w3schools](http://www.w3schools.com/html/de
 
 ---
 
-Go on to the [last exercise](link here) of the module! This final exercise will require you to do independent research and utilize outside resources, because this class is about more than just copying code that we give you. Good luck!
+Go on to the [last exercise](https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/experience-special-media.html) of the module! This final exercise will require you to do independent research and utilize outside resources, because this class is about more than just copying code that we give you. Good luck!
 
 
