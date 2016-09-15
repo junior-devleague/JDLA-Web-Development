@@ -7,6 +7,7 @@ morea_outcomes:
   - outcome-syntax-structure
   - outcome-tags-attributes
   - outcome-semantic-html
+  - outcome-self-directed-learning
 morea_readings:
   - reading-what-is-html
   - reading-syntax-structure
