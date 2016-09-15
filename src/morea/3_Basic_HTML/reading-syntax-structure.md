@@ -1,5 +1,5 @@
 ---
-title: "Syntax and structure"
+title: "Syntax and Structure"
 published: true
 morea_id: reading-syntax-structure
 morea_summary: "Understanding how to write HTML"

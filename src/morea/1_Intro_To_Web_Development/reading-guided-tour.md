@@ -1,5 +1,5 @@
 ---
-title: "How to use this site"
+title: "How to Use this Site"
 published: true
 morea_id: reading-guided-tour
 morea_summary: "A guide to using our website and its modules"
@@ -9,7 +9,7 @@ morea_labels:
  - morea
 ---
 
-# How to use this site
+# How to Use this Site
 
 Welcome to **Web Development**, taught by Jr DevLeague Academy. This class will use our website, which implements a modular (don’t worry if you don’t know what that means) style of learning. This reading is a guided tour of using our site and the modules.
 

@@ -1,5 +1,5 @@
 ---
-title: "What is web development?"
+title: "What is Web Development?"
 published: true
 morea_id: reading-web-dev
 morea_summary: "Explanation of what exactly web development entails"

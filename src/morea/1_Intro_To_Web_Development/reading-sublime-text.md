@@ -1,5 +1,5 @@
 ---
-title: "Sublime Text tutorial"
+title: "Sublime Text Tutorial"
 published: true
 morea_id: reading-sublime-text
 morea_summary: "How to set up and use the text editor Sublime Text"

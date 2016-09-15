@@ -1,5 +1,5 @@
 ---
-title: "What is a shell?"
+title: "What is a Shell?"
 published: true
 morea_id: reading-shell
 morea_summary: "An explanation of shells, the command line, and Bash"
@@ -10,7 +10,7 @@ morea_labels:
  - command line
 ---
 
-# What is a shell?
+# What is a Shell?
 
 A *shell* is the program that passes keyboard commands to the *operating system* (such as Windows, OS X, GNU/Linux, BSD) to carry out.
 

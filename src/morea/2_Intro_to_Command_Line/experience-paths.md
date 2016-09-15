@@ -1,5 +1,5 @@
 ---
-title: "Tracing paths"
+title: "Tracing Paths"
 published: true
 morea_id: experience-paths
 morea_type: experience
@@ -10,7 +10,7 @@ morea_labels:
  - UNIX
 ---
 
-# Tracing paths
+# Tracing Paths
 
 For this exercise, you will write out the paths based on the following image and any special instructions or circumstances per path. 
 When finished, show the instructor your answers and move on to the “Terminus” experience.

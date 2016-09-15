@@ -1,5 +1,5 @@
 ---
-title: "File creation"
+title: "File Creation"
 published: true
 morea_id: experience-file-creation
 morea_type: experience
@@ -10,7 +10,7 @@ morea_labels:
  - creating files
 ---
 
-# File creation
+# File Creation
 
 All of the following must be done exclusively in your terminal with Bash. **Do not use a file manager.**
 

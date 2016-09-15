@@ -1,5 +1,5 @@
 ---
-title: "Linking HTML files"
+title: "Linking HTML Files"
 published: true
 morea_id: reading-linking-files
 morea_summary: "An explanation of how to link multiple files together in HTML"
@@ -10,7 +10,7 @@ morea_labels:
  - navigation
 ---
 
-# Linking HTML files
+# Linking HTML Files
 
 Now that you know how an HTML document should be structured, we can make more HTML documents and link them together. When you go to a website, there’s several links that you click on to take you to other pages in the website. Those other pages are literally other HTML pages, which you link together at the top of your document. 
 
