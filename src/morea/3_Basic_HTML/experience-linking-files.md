@@ -40,4 +40,8 @@ The purpose of this exercise is to get used to having multiple HTML pages as you
 4. Create an unordered list with all of the anchor tags that link the web pages together.
 5. After finishing the `index.html` page, complete steps 1 through 4 for the remaining HTML files.
 
+---
+
+[Click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/reading-special-media.html) to move on to the final reading of this module.
+
 <br>

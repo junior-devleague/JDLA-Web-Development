@@ -24,3 +24,4 @@ Here at Academy, regardless of the class you take, you’ll be learning Bash.
 
 [Click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/reading-paths.html) to move on to the next reading, “Paths”.
 
+<br>

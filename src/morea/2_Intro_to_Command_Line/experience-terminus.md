@@ -17,5 +17,8 @@ In this exercise, you will play a Role-Playing Game developed by MIT, *Terminus*
 
 *Note that everything you learn in Terminus is directly linked to Bash. The spells are commands, locations are directories, and items are files.*
 
-When finished, you’ll be ready for this module’s final reading, “Basic Bash”.
+---
 
+When finished, you’ll be ready for this module’s final reading, [“Basic Bash”](https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/reading-basic-bash.html).
+
+<br>

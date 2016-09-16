@@ -88,4 +88,8 @@ There are 9 errors:
   </pre>
 </details>
 
+---
+
+[Click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/experience-linking-files.html) to move on to the next exercise on linking HTML files.
+
 <br>

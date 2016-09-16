@@ -34,3 +34,5 @@ Open up your index.html file. You will be modifying this file in future exercise
 ---
 
 Move on to the second reading in this HTML module, [“Syntax and Structure”](https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/reading-syntax-structure.html).
+
+<br>

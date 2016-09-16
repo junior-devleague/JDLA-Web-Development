@@ -29,7 +29,7 @@ Also, make sure you keep all images in this class PG.
 
 Anyway, your image tag should look something like this: 
 
-`<img src = “images/mindlessMeme.png” alt = “Another bizarre, mind-numbing, meme”>`
+`<img src=“images/mindlessMeme.png” alt=“Another bizarre, mind-numbing, meme”>`
 
 In the body of your file (_try to remember: what goes inside the body?_) add an image!
 
@@ -44,67 +44,67 @@ id’s are unique to an element and only used once in the document.
 For example: 
 
 ```html
-<p id = “aboutDogs”> 
-This is a paragraph about dogs. Dogs are cool. Dogs are awesome. Dogs are the best. I love Dogs. Dogs are amazing.
+<p id=“about-dogs”> 
+	This is a paragraph about dogs. Dogs are cool. Dogs are awesome. Dogs are the best. I love Dogs. Dogs are amazing.
 </p>
 ```
 
-That particular paragraph has an id called “aboutDogs”, and the id tells us that that paragraph is … well, about dogs. Assuming that you’ll have many paragraphs in your website, it’s good to identify the only section where you’ll be talking about dogs. Perhaps you want there to be special glittery effects and background images for that one section, because dogs are special and deserve special recognition. The id is important when we want to select certain sections of our code later on and style/organize them. 
+That particular paragraph has an id called “about-dogs”, and the id tells us that that paragraph is … well, about dogs. Assuming that you’ll have many paragraphs in your website, it’s good to identify the only section where you’ll be talking about dogs. Perhaps you want there to be special glittery effects and background images for that one section, because dogs are special and deserve special recognition. The id is important when we want to select certain sections of our code later on and style/organize them. 
 
 On the other hand, we have classes, which are used to identify multiple elements you expect to all fall under a certain umbrella. 
 
 ```html
-<p class = “animalDescription”>
+<p class=“animal-description”>
 
-Dogs are cool.
-I love dogs. 
-Dogs are AMAZING!!!!!!
-
-</p>
-
-<p class = “animalDescription”>
-
-Cats are evil.
-Cats are manipulative and lazy and self-serving. 
-Cats attempt to take over the world. We must not allow that to happen!!
+	Dogs are cool.
+	I love dogs. 
+	Dogs are AMAZING!!!!!!
 
 </p>
 
-<p class = “animalDescription”>
+<p class=“animal-description”>
 
-Zebras are weird.
-From an evolutionary standpoint, I have no clue why they exist.
-Their color combination is really ugly. 
+	Cats are evil.
+	Cats are manipulative and lazy and self-serving. 
+	Cats attempt to take over the world. We must not allow that to happen!!
+
+</p>
+
+<p class=“animal-description”>
+
+	Zebras are weird.
+	From an evolutionary standpoint, I have no clue why they exist.
+	Their color combination is really ugly. 
 
 </p>
 
 ```
-All of the paragraphs are descriptions of animals, so we give them the class attribute “animalDescription”. This way, if we wanted to select all the paragraphs describing animals and surround them with a colorful border, we could do that very easily because they have the same class!
+All of the paragraphs are descriptions of animals, so we give them the class attribute “animal-description”. This way, if we wanted to select all the paragraphs describing animals and surround them with a colorful border, we could do that very easily because they have the same class!
 
 You can also combine id’s and classes, and have good, descriptive, HTML code that can easily be styled. 
 
 ```html
-<p class = “animalDescription” id = “aboutDogs”>
+<p class=“animal-description” id=“about-dogs”>
 
-Dogs are cool.
-I love dogs. 
-Dogs are AMAZING!!!!!!
-
-</p>
-
-<p class = “animalDescription” id = “aboutCats”>
-
-Cats are evil.
-Cats are manipulative and lazy and self-serving. 
-Cats attempt to take over the world. We must not allow that to happen!!
+	Dogs are cool.
+	I love dogs. 
+	Dogs are AMAZING!!!!!!
 
 </p>
 
-<p class = “animalDescription” id = “aboutZebras”>
+<p class=“animal-description” id=“about-cats”>
 
-Zebras are weird.
-From an evolutionary standpoint, I have no clue why they exist.
-Their color combination is really ugly. 
+	Cats are evil.
+	Cats are manipulative and lazy and self-serving. 
+	Cats attempt to take over the world. We must not allow that to happen!!
+
+</p>
+
+<p class=“animal-description” id=“about-zebras”>
+
+	Zebras are weird.
+	From an evolutionary standpoint, I have no clue why they exist.
+	Their color combination is really ugly. 
 
 </p>
 
@@ -118,7 +118,7 @@ To close off this reading, we’ll go over anchor tags. There are so many tags w
 Anchor tags are how we link people to external sites/resources, or even to other parts of your site. The syntax for anchor tags is: 
 
 ```html
-<a href = “urlhere”> This is a link </a>
+<a href=“urlhere”> This is a link </a>
 ```
 `href` is a required attribute for anchor tags. What the above code does is create [clickable links](https://junior-devleague.github.io/JDLA-Web-Development/). 
 
@@ -126,7 +126,7 @@ You can actually create clickable images that link elsewhere by nesting an `<img
 
 ```html
 <a href="link here">
-<img src="images/devleagueLogo.png" alt="DevLeague Logo">
+	<img src="images/devleagueLogo.png" alt="DevLeague Logo">
 </a>
 ```
 
@@ -137,3 +137,5 @@ You can combine id’s or classes with an anchor tag to create _page jumps_, aka
 You’re just about ready now to do your first exercise! Using all that you’ve learned so far, you will create a personal profile. [Click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/experience-profile.html) to go the first experiential learning exercise in this module. 
 
 After you complete the exercise, move on to the fifth reading, [“Linking HTML files”](https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/reading-linking-files.html).
+
+<br>

@@ -27,5 +27,8 @@ If you don’t remember the commands you need to use or how to use them, look ba
 
 When you’ve finished, let one of the instructors know and we will look at your files and history.
 
-Move on to the “Treasure Hunt” assessment to complete this module.
+---
 
+Move on to the [“Treasure Hunt”](https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/experience-treasure-hunt.html) exercise to complete this module.
+
+<br>

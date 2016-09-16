@@ -39,3 +39,8 @@ In this exercise, you will be creating a profile page with your name, age, hobbi
 8. Add any other sections with information about yourself _(optional)_
 9. Bask in the glory of your new profile page
 
+---
+
+When you're finished basking, move on to the next reading, ["Linking HTML Files"](https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/reading-linking-files.html)
+
+<br>

@@ -78,3 +78,4 @@ When typing in arguments, you can use autocompletion with the Tab key. After typ
 
 [Click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/experience-treasure-hunt.html) to do the final experiential learning exercise of the module, “Treasure Hunt”, before moving on to [Module 3, “Basic HTML”](https://junior-devleague.github.io/JDLA-Web-Development/modules/basic-html/).
 
+<br>

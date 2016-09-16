@@ -126,3 +126,5 @@ Drag the HTML file onto the browser icon on your Desktop. **The browser you will
 ---
 
 [Click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/reading-tags-elements.html) to move on to the third reading, “Tags and Elements”.
+
+<br>

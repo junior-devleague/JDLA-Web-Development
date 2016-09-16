@@ -48,3 +48,4 @@ Before moving on to the next reading, [click here](https://junior-devleague.gith
 
 Then, [click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/reading-basic-bash.html) to move on to the final reading of this module, “Basic Bash”.
 
+<br>

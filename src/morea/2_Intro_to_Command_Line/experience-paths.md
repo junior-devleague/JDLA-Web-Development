@@ -28,3 +28,8 @@ When finished, show the instructor your answers and move on to the â€œTerminusâ€
 
 5. What is the absolute path to the `solutions` directory?
 
+---
+
+After you're done, move on to the next experiential learning exercise, ["Terminus"](https://junior-devleague.github.io/JDLA-Web-Development/morea/2_Intro_to_Command_Line/experience-terminus.html).
+
+<br>

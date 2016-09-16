@@ -130,3 +130,5 @@ These meta tags are pretty self explanatory. They don’t appear on your website
 ---
 
 [Click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/reading-attributes.html) to move on to the fourth reading, “Attributes”.
+
+<br>
