@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Remake the Template | JDLA Web Development </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!--  Load bootswatch-based Morea theme file. -->
+  <link rel="stylesheet" href="/JDLA-Web-Development/css/themes/lumen/bootstrap.min.css">
+  <link rel="stylesheet" href="/JDLA-Web-Development/css/style.css">
+  <link rel="stylesheet" href="/JDLA-Web-Development/css/syntax.css">
+  <link rel="shortcut icon" href="/JDLA-Web-Development/favicon.ico" type="image/x-icon"/>
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.js"></script>
+  <![endif]-->
+
+  <!-- Load Bootstrap JavaScript components -->
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  
+  <script type="text/javascript"
+          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+  
+
+  <script>
+    $(window).load(function () {
+      // If on a page associated with a navbar item, make its navbar item 'active'.
+      $('.navbar-nav').find('a[href="' + location.pathname + '"]').parents('li').addClass('active');
+    });
+  </script>
+
+</head>
+<body>
+<!-- Responsive navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <!--  Display three horizontal lines when navbar collapsed. -->
+        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/JDLA-Web-Development/index.html"> JDLA Web Development </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        
+        <li><a href="/JDLA-Web-Development/modules/">Modules</a></li>
+        
+        <li><a href="/JDLA-Web-Development/outcomes/">Outcomes</a></li>
+        
+        
+        <li><a href="/JDLA-Web-Development/readings/">Readings</a></li>
+        
+        
+        <li><a href="/JDLA-Web-Development/experiences/">Experiences</a></li>
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="breadcrumb-bar">
+  <div class="container">
+    <ol class="breadcrumb">
+      
+      <li><a href="/JDLA-Web-Development/">Home</a></li>
+      <li><a href="/JDLA-Web-Development/modules">Modules</a></li>
+      <li><a href="/JDLA-Web-Development/modules/basic-css">Basic CSS</a></li>
+      <li class="active">Remake the Template</li>
+    </ol>
+  </div>
+</div>
+
+
+<div class="container">
+  <h1 id="remake-the-template">Remake the Template</h1>
+
+<p>In this exercise, you will be recreating a template from scratch using common CSS properties that you’ve learned thus far.</p>
+
+<h2 id="purpose">Purpose</h2>
+
+<p>The purpose of this assignment is to get you used to writing HTML and CSS code to create content from scratch.</p>
+
+<p><img src="profile-example.png" />
+<img src="profile-example.png" />
+<img src="profile-example.png" /></p>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<ol>
+  <li>Create a new project folder with an <code class="highlighter-rouge">index.html</code> file and <code class="highlighter-rouge">css/styles.css</code></li>
+  <li>Copy the starter code into the new <code class="highlighter-rouge">index.html</code> file:</li>
+</ol>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;title&gt;&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre>
+</div>
+<ol>
+  <li>Copy the <code class="highlighter-rouge">batman_logo.png</code><a href="batman_logo.png" download=""> here </a></li>
+  <li>Open your project in Sublime Text.</li>
+  <li>Get started.</li>
+</ol>
+
+<h2 id="requirements">Requirements</h2>
+
+<ul>
+  <li>There must be no margins around the body.</li>
+  <li>Must use the fonts: <code class="highlighter-rouge">Comfortaa</code> and <code class="highlighter-rouge">Fjalla One</code> from Google Fonts. https://fonts.google.com/</li>
+  <li>You must use the following colors:
+    <ul>
+      <li><code class="highlighter-rouge">#000000</code> <code class="highlighter-rouge">#909090</code> <code class="highlighter-rouge">#303030</code> <code class="highlighter-rouge">#0060A8</code> <code class="highlighter-rouge">#FFF200</code> <code class="highlighter-rouge">#0060AB</code></li>
+    </ul>
+  </li>
+  <li>Must use <code class="highlighter-rouge">inline-block</code> on the body.</li>
+  <li>All CSS must be written in the CSS file. No inline styles.</li>
+  <li>Page must be recreated to match the images of the example page exactly.</li>
+  <li>The <code class="highlighter-rouge">body</code> must not exceed <code class="highlighter-rouge">1280px</code> in length (width);</li>
+</ul>
+
+<h3 id="extra-challenge">Extra challenge</h3>
+
+<ul>
+  <li>No <code class="highlighter-rouge">float</code> properties.</li>
+</ul>
+
+<h2 id="instructions">Instructions</h2>
+
+<ol>
+  <li>Link the HTML and CSS files together.</li>
+  <li>Open your project in the browser.</li>
+  <li>Find the fonts <code class="highlighter-rouge">Comfortaa</code> and <code class="highlighter-rouge">Fjalla One</code> from Google Fonts and link them into the website.</li>
+  <li>Go to http://batman-ipsum.com/ and copy some batman ipsum to use as your paragraph in the page.</li>
+  <li>Create a nav bar with four links: <code class="highlighter-rouge">Home</code>, <code class="highlighter-rouge">Journey</code>, <code class="highlighter-rouge">Details</code>, <code class="highlighter-rouge">Contact</code>.</li>
+  <li>Include the image provided in the webpage.</li>
+  <li>Format the image size in CSS to be <code class="highlighter-rouge">75%</code> of the page.</li>
+  <li>Add an <code class="highlighter-rouge">h1</code> with the text <code class="highlighter-rouge">Beginning the Journey</code></li>
+  <li>Add a <code class="highlighter-rouge">p</code> element for the text that you got from http://batman-ipsum.com/.</li>
+  <li>Format the <code class="highlighter-rouge">p</code> tag in CSS to be no wider than <code class="highlighter-rouge">75%</code> of the webpage.</li>
+  <li>Add a footer element with <code class="highlighter-rouge">Batman Ipsum Provided by http://batman-ipsum.com/</code>. The link must be used in an <code class="highlighter-rouge">a</code> tag.</li>
+  <li>Finish the rest of the project in the CSS file.</li>
+</ol>
+
+</div>
+
+
+
+
+<script src="/JDLA-Web-Development/js/scrollIfAnchor.js"></script>
+
+<div class="footer-background hidden-print">
+  <footer>
+    <div class="container page-footer">
+      
+      <p>Web Development | Junior DevLeague Academy |
+junior@devleague.com</p>
+
+      
+      <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: lumen)<br>
+        Last update on: <span>2016-09-18 19:39:47 -1000</span></p>
+
+      <p style="margin: 0">
+        
+        6 modules
+        
+        | 8 outcomes
+        
+        
+        | 18 readings
+        
+        
+        | 11 experiences
+        
+        
+      </p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

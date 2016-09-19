@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Personal Profile Page | JDLA Web Development </title>
+  <title> Fix the CSS | JDLA Web Development </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
 
@@ -74,52 +74,126 @@
       
       <li><a href="/JDLA-Web-Development/">Home</a></li>
       <li><a href="/JDLA-Web-Development/modules">Modules</a></li>
-      <li><a href="/JDLA-Web-Development/modules/basic-html">Basic HTML</a></li>
-      <li class="active">Personal Profile Page</li>
+      <li><a href="/JDLA-Web-Development/modules/basic-css">Basic CSS</a></li>
+      <li class="active">Fix the CSS</li>
     </ol>
   </div>
 </div>
 
 
 <div class="container">
-  <h1 id="personal-profile-page">Personal Profile Page</h1>
+  <h1 id="fix-the-css">Fix the CSS</h1>
 
-<p>In this exercise, you will be creating a profile page with your name, age, hobbies, and goals. The goal of this exercise is to give you a solid understanding of how to create a basic web page using correct syntax, structure, tags, and attributes.</p>
+<p>In this exercise, you will be presented with CSS code blocks containing numerous errors which you will have to correct.</p>
 
-<h2 id="getting-started">Getting Started</h2>
+<h2 id="code-block-1">Code Block 1</h2>
 
-<ol>
-  <li>Create a new project folder called <code class="highlighter-rouge">ProfileProject</code>.</li>
-  <li>In your new project folder create an <code class="highlighter-rouge">index.html</code> file.</li>
-  <li>Open your project folder in Sublime Text.</li>
-</ol>
+<p>We are working on a div with a class of “class_name”</p>
 
-<h2 id="requirements">Requirements</h2>
+<p>There are 5 errors</p>
 
-<ul>
-  <li>Have a title for the page.</li>
-  <li>Include a header with your name and occupation using heading tags.</li>
-  <li>Include a description of yourself.</li>
-  <li>Include a list of your favorite foods.</li>
-</ul>
+<div class="highlighter-rouge"><pre class="highlight"><code>.class name{
+  display: inline-block;
+  color: red
+  border: solid black 2px;
+  background-color: transparent;
+}
 
-<h2 id="instructions">Instructions</h2>
+.class_name li{
+  color; green;
+  margin: -10px;
+  line-height: 20px;
+}
 
-<ol>
-  <li>Open the <code class="highlighter-rouge">index.html</code> file and create the HTML Skeleton.</li>
-  <li>In the <code class="highlighter-rouge">&lt;head&gt;</code> element add the title “JDLA Profile Page”</li>
-  <li>In the body, add your first and last name using an <code class="highlighter-rouge">h1</code> tag</li>
-  <li>Below the <code class="highlighter-rouge">h1</code> tag add an <code class="highlighter-rouge">h2</code> tag with your occupation</li>
-  <li>Create a description of yourself using a paragraph tag</li>
-  <li>After the paragraph, add an <code class="highlighter-rouge">h3</code> tag saying “Favorite Foods”</li>
-  <li>Below the heading, create an unordered list containing five of you favorite foods</li>
-  <li>Add any other sections with information about yourself <em>(optional)</em></li>
-  <li>Bask in the glory of your new profile page</li>
-</ol>
+class_name li &gt; a{
+  color: blue;
+}
 
-<hr />
+.class_name li &gt; a:hover{
+  color: black;
+  background color: #757575;
+}
+</code></pre>
+</div>
 
-<p>When you’re finished basking, move on to the next reading, <a href="https://junior-devleague.github.io/JDLA-Web-Development/morea/3_Basic_HTML/reading-linking-files.html">“Linking HTML Files”</a></p>
+<details>
+  <summary>Check your code here</summary>
+  <pre>
+.class_name{
+  display: inline-block;
+  color: red;
+  border: solid black 2px;
+  background-color: transparent;
+}
+
+.class_name li{
+  color: green;
+  margin: -10px;
+  line-height: 20px;
+}
+
+.class_name li &gt; a{
+  color: blue;
+}
+
+.class_name li &gt; a:hover{
+  color: black;
+  background-color: #757575;
+}
+  </pre>
+</details>
+
+<h2 id="code-block-2">Code block 2</h2>
+
+<p>We are working with the <code class="highlighter-rouge">body</code>, <code class="highlighter-rouge">img</code>, and <code class="highlighter-rouge">p</code> tags.</p>
+
+<p>There are 7 errors</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>body[
+  display: inline-block:
+  background-color: #304950;
+  color; red;
+  text-align: center;
+}
+
+image{
+  height: 100px;;
+  width: 300p;
+  margin: 10px;
+}
+
+p{
+  display: inline block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+</code></pre>
+</div>
+
+<details>
+  <summary>Check your code here</summary>
+  <pre>
+body{
+  display: inline-block;
+  background-color: #304950;
+  color: red;
+  text-align: center;
+}
+
+img{
+  height: 100px;
+  width: 300px;
+  margin: 10px;
+}
+
+p{
+  display: inline-block;
+  width: 50%;
+  margin: 0 auto;
+}
+  </pre>
+</details>
 
 <p><br /></p>
 
