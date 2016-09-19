@@ -6,7 +6,7 @@ morea_type: home
 
 # Junior DevLeague Academy: Web Development 
 ### Monday - Friday (3pm to 6pm), Saturday (9am to 4pm) 
- The goal of our course is to give students a solid understand of the various aspects of web development. Some of topics we cover are:
+ The goal of our course is to give students a solid understanding of the various aspects of web development. Some of the topics we cover are:
 
 - **HTML/CSS** We cover basic HTML and CSS first, and then later touch on more advanced concepts about page structure and design. HTML and CSS provide the structure and design of a web page, and define what we see on a page. 
 - **UX/UI Design** We go over important concepts of web design such as color theory, display types, media queries, and other principles of good, professional, design. 

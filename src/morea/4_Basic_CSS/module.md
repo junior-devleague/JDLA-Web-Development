@@ -12,6 +12,9 @@ morea_readings:
  - reading17
  - reading18
 morea_experiences:
+ - experience-fix-css
+ - experience-profile-remake
+ - experience-remake-template
 morea_labels:
  - CSS
  - beginner

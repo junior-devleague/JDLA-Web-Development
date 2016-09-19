@@ -1,22 +1,21 @@
 ---
-title: "Fix the HTML Code"
+title: "Fix the HTML"
 published: true
-morea_id: experience-debug-html
+morea_id: experience-fix-html
 morea_type: experience
 morea_summary: "In this exercise, you will fix HTML code that is full of errors."
 morea_sort_order: 6
 morea_labels:
  - HTML
- - website
 ---
 
-# Fix the HTML Code
+# Fix the HTML
 
 In this exercise, you will be presented with HTML code containing numerous errors which you will have to correct.
 
 ## Code Block 1
 
-There are 5 errors:
+There are 5 errors
 
 ```html
 <h1>Web development career paths<h1>
@@ -43,9 +42,9 @@ There are 5 errors:
 
 ## Code Block 2
 
-There are 9 errors: 
+There are 9 errors
 
-```
+```html
 !DOCTYPE html
 <html>
   <header>

@@ -17,7 +17,7 @@ morea_readings:
   - reading-special-media
 morea_experiences:
   - experience-profile
-  - experience-debug-html
+  - experience-fix-html
   - experience-linking-files
   - experience-special-media
 morea_labels:
