@@ -116,17 +116,16 @@
 
 <p>For example:</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">“about-dogs”</span><span class="nt">&gt;</span> 
+<div class="language-html highlighter-rouge"><pre class="codehilite"><code><span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">“about-dogs”</span><span class="nt">&gt;</span> 
 	This is a paragraph about dogs. Dogs are cool. Dogs are awesome. Dogs are the best. I love Dogs. Dogs are amazing.
 <span class="nt">&lt;/p&gt;</span>
-</code></pre>
-</div>
+</code></pre></div>
 
 <p>That particular paragraph has an id called “about-dogs”, and the id tells us that that paragraph is … well, about dogs. Assuming that you’ll have many paragraphs in your website, it’s good to identify the only section where you’ll be talking about dogs. Perhaps you want there to be special glittery effects and background images for that one section, because dogs are special and deserve special recognition. The id is important when we want to select certain sections of our code later on and style/organize them.</p>
 
 <p>On the other hand, we have classes, which are used to identify multiple elements you expect to all fall under a certain umbrella.</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">“animal-description”</span><span class="nt">&gt;</span>
+<div class="language-html highlighter-rouge"><pre class="codehilite"><code><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">“animal-description”</span><span class="nt">&gt;</span>
 
 	Dogs are cool.
 	I love dogs. 
@@ -150,13 +149,12 @@
 
 <span class="nt">&lt;/p&gt;</span>
 
-</code></pre>
-</div>
+</code></pre></div>
 <p>All of the paragraphs are descriptions of animals, so we give them the class attribute “animal-description”. This way, if we wanted to select all the paragraphs describing animals and surround them with a colorful border, we could do that very easily because they have the same class!</p>
 
 <p>You can also combine id’s and classes, and have good, descriptive, HTML code that can easily be styled.</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">“animal-description”</span> <span class="na">id=</span><span class="s">“about-dogs”</span><span class="nt">&gt;</span>
+<div class="language-html highlighter-rouge"><pre class="codehilite"><code><span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">“animal-description”</span> <span class="na">id=</span><span class="s">“about-dogs”</span><span class="nt">&gt;</span>
 
 	Dogs are cool.
 	I love dogs. 
@@ -180,8 +178,7 @@
 
 <span class="nt">&lt;/p&gt;</span>
 
-</code></pre>
-</div>
+</code></pre></div>
 <p>This way, we can make references to an entire class of elements, as well as specific individual elements. This might seem simple and somewhat pointless, but it’s extremely important that you group and label your elements correctly. You probably won’t see why now, but you will later on! We <em>will</em> be revisiting classes and id’s, so make sure you get into the practice of using them effectively!</p>
 
 <h2 id="anchor-tags">Anchor tags</h2>
@@ -190,18 +187,16 @@
 
 <p>Anchor tags are how we link people to external sites/resources, or even to other parts of your site. The syntax for anchor tags is:</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">“urlhere”</span><span class="nt">&gt;</span> This is a link <span class="nt">&lt;/a&gt;</span>
-</code></pre>
-</div>
+<div class="language-html highlighter-rouge"><pre class="codehilite"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">“urlhere”</span><span class="nt">&gt;</span> This is a link <span class="nt">&lt;/a&gt;</span>
+</code></pre></div>
 <p><code class="highlighter-rouge">href</code> is a required attribute for anchor tags. What the above code does is create <a href="https://junior-devleague.github.io/JDLA-Web-Development/">clickable links</a>.</p>
 
 <p>You can actually create clickable images that link elsewhere by nesting an <code class="highlighter-rouge">&lt;img&gt;</code> tag inside an anchor tag:</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"link here"</span><span class="nt">&gt;</span>
+<div class="language-html highlighter-rouge"><pre class="codehilite"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"link here"</span><span class="nt">&gt;</span>
 	<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"images/devleagueLogo.png"</span> <span class="na">alt=</span><span class="s">"DevLeague Logo"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;/a&gt;</span>
-</code></pre>
-</div>
+</code></pre></div>
 
 <p>You can combine id’s or classes with an anchor tag to create <em>page jumps</em>, aka jumping from one section of a long page to another section. We won’t show you how to do that here, because we’re just about exceeding reasonable reading length (such that we still have your attention), but you can look up how to do that yourself!</p>
 
@@ -229,7 +224,7 @@ junior@devleague.com</p>
 
       
       <p style="margin: 0">Powered by the <a href="http://morea-framework.github.io/">Morea Framework</a> (Theme: lumen)<br>
-        Last update on: <span>2016-09-18 19:39:47 -1000</span></p>
+        Last update on: <span>2016-10-07 20:30:14 -1000</span></p>
 
       <p style="margin: 0">
         
