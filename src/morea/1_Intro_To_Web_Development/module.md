@@ -13,7 +13,7 @@ morea_readings:
 morea_experiences:
 morea_type: module
 #morea_icon_url: /morea/foo/logo.png
-morea_summary: "What's  this class all about? Find out by reading this first!"
+morea_summary: "What's this class all about? Find out by reading this first!"
 morea_labels:
  - intro
 morea_sort_order: 1

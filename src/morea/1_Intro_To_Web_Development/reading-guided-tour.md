@@ -1,5 +1,5 @@
 ---
-title: "How to Use this Site"
+title: "Academy Rules & How to Use this Site"
 published: true
 morea_id: reading-guided-tour
 morea_summary: "A guide to using our website and its modules"
@@ -9,9 +9,21 @@ morea_labels:
  - morea
 ---
 
-# How to Use this Site
+# Academy Rules & How to Use this Site
 
 Welcome to **Web Development**, taught by Jr DevLeague Academy. This class will use our website, which implements a modular (don’t worry if you don’t know what that means) style of learning. This reading is a guided tour of using our site and the modules.
+
+## Rules of Academy
+
+In order to have a fun and awesome learning experience, we need structure. And that involves rules, which are the only thing that separates us from the poop-flinging monkeys in the wild. Please follow these rules:
+
+1. Everyone gets respect; don't talk or have side conversations while others are speaking
+2. No phones, tablets, or any other miscellaneous electronic devices not approved by the instructors
+3. No installing/downloading unauthorized files or programs
+4. No food or open bottles in front of the computers
+5. No spinning on chairs or standing when instructors are speaking
+6. Raise your hand if you have a question
+7. While you are working, music is okay as long as you have personal headphones. Don't use your mobile phones for music
 
 ## Modules
 
@@ -41,5 +53,5 @@ After completing a reading, there will be links on the bottom of the page indica
 
 ---
 
-[Click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/1_Intro_To_Web_Development/reading-web-dev.html) to move on to the next reading, “What is web development?”.
+[Click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/1_Intro_To_Web_Development/reading-web-dev.html) to move on to the next reading, “Introductions & Class Description”.
 

@@ -21,6 +21,6 @@ This class is for anyone who would like to learn how to build their own web appl
 
 ### Let's begin!
 
-Let's start off by reading through [Module 1's](https://junior-devleague.github.io/JDLA-Web-Development/modules/intro-to-web-development/) first reading, ["How to use this site"](https://junior-devleague.github.io/JDLA-Web-Development/morea/1_Intro_To_Web_Development/reading-guided-tour.html)
+Let's start off by reading through the first module's, [Welcome to Web Development](https://junior-devleague.github.io/JDLA-Web-Development/modules/intro-to-web-development/), first reading, ["Academy Rules & How to Use this Site"](https://junior-devleague.github.io/JDLA-Web-Development/morea/1_Intro_To_Web_Development/reading-guided-tour.html)
 
 <br>
