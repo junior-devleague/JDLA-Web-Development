@@ -55,3 +55,4 @@ After completing a reading, there will be links on the bottom of the page indica
 
 [Click here](https://junior-devleague.github.io/JDLA-Web-Development/morea/1_Intro_To_Web_Development/reading-web-dev.html) to move on to the next reading, “Introductions & Class Description”.
 
+<br>
