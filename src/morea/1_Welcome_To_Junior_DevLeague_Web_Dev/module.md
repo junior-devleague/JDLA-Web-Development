@@ -1,5 +1,5 @@
 ---
-title: "Intro to Web Development"
+title: "Welcome to Web Development!" 
 published: true
 morea_id: intro-to-web-development
 morea_outcomes:
@@ -13,7 +13,7 @@ morea_readings:
 morea_experiences:
 morea_type: module
 #morea_icon_url: /morea/foo/logo.png
-morea_summary: "The introduction to our wonderful web development class"
+morea_summary: "What's  this class all about? Find out by reading this first!"
 morea_labels:
  - intro
 morea_sort_order: 1
