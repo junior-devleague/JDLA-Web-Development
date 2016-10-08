@@ -22,7 +22,17 @@ I’m a developer but more importantly, an adult stuck in a kids body. I moved t
 - Hobbies: surfing, hiking, coding, graphic design
 - Fav Foods: fried chicken, pizza, sushi
 - Pets: Australian Shephard named Jingoy
-- Quote: “If you can dream it. you can do it” - Walt Disney
+- Quote: “If you can dream it. you can do it.” - Walt Disney
+
+**Yukio Yamamoto**
+
+Im a full stack developer specializing in web applications. Born and raised here on Oahu, I grew up in the public school system here. I graduated from Moanalua high school in 2014. Since then, I have been studying and working in the development industry for almost 2 years. I hope I can pass what knowledge I've gained over the years to students who are eager to learn what I enjoy filling my time with most. 
+
+- Technology: HTML, CSS, JavaScipt, NodeJS, C# in asp.net, Java
+- Hobbies: Coding, Running, Sleeping, Movies, Anime
+- Fav Foods: Sushi, Pasta, Tonkatsu, Ramen, Pizza, Anything you put in front of my face.
+- Pets: Terrier Mix named Rina, Blue Russian named Nala. 
+- Quote: “I love deadlines. I like the whooshing sound they make as they fly by.”
 
 ## Welcome to Web Development
 
